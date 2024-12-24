@@ -12,7 +12,7 @@ title                    : "Jonathan Grizou"
 title_separator          : "-"
 name                     : &name "Jonathan Grizou"
 description              : &description "personal description"
-url                      : https://mt-jgrizou.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://web12344.github.io/mt-jgrizou.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
