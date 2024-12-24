@@ -25,16 +25,16 @@ author:
   name             : "Jonathan Grizou"
   pronouns         : # example: "she/her"  
   bio              : "I offer consulting services in Data Science, Artificial Intelligence, Machine Learning and Robotics with a focus on tech start-ups. My interdisciplinary experiences and application mindset allow me to adapt quickly to various industries."
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Glasgow, Scotland, United Kingdom"
+  employer         : "University Of Glasgow"
   uri              : # URL
   email            : "jonathan.grizou@glasgow.ac.uk" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/jgrizou"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/jonathangrizou"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
