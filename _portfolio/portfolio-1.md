@@ -36,39 +36,41 @@ collection: portfolio
 </ol>
 
 <h2>Smaller projects</h2>
-<ul>
-  <li>Why essays at <a href='https://whyweresearch.com/' target='_blank'>whyweresearch.com</a>, <a href='https://whywestartup.com/' target='_blank'>whywestartup.com</a>, and <a href='https://whywebootstrap.com/' target='_blank'>whywebootstrap.com</a> (2023 – ongoing)</li>
-  <li>Learning legible robot motion (2015 – 2016)</li>
-  <li>Ad Hoc Teamwork (2015)</li>
-  <li>Co-construction of interaction protocols in humans (2014)</li>
-  <li>Study of spontaneous exploration in humans (2014)</li>
-  <li>Master’s Thesis – Salamander robot (2011)</li>
-  <li>Internship – Active learning using SVMs (2010)</li>
-</ul>
+<ol>
+  <li>Why essays at <a href="https://www.whyweresearch.com">whyweresearch.com</a>, <a href="https://www.whywestartup.com">whywestartup.com</a>, and <a href="https://www.whywebootstrap.com">whywebootstrap.com</a> (2023-ongoing)</li>
+  <li><a href="https://jgrizou.com/projects/legible-motion">Learning legible robot motion</a> (2015-2016)</li>
+  <li><a href="https://jgrizou.com/projects/adhoc-team">Ad Hoc Teamwork</a> (2015)</li>
+  <li><a href="https://jgrizou.com/projects/coco-game">Co-construction of interaction protocols in humans</a> (2014)</li>
+  <li><a href="https://jgrizou.com/projects/human-exploration">Study of spontaneous exploration in humans</a> (2014)</li>
+  <li><a href="https://jgrizou.com/projects/salamander">Master’s Thesis – Salamander robot</a> (2011)</li>
+  <li><a href="https://jgrizou.com/projects/active-learning">Internship – Active learning using SVMs</a> (2010)</li>
+</ol>
 
 <h2>Stuff I built</h2>
-<ul>
-  <li>Smartphone powered self-driving robot (2021)</li>
-  <li>p5live – Live refresh of p5.js sketches (2021)</li>
-  <li>SpyLock – Android App (2020)</li>
-  <li>Web application – Self-calibrating code entering interface (2019 – ongoing)</li>
-  <li>Dropfactory – High-throughput laboratory robot with AI (2015 – 2017)</li>
-  <li>Tools for open research in chemistry labs (2015 – 2017)</li>
-  <li>Soft starfish robot – Building low-cost soft robots (2016)</li>
-  <li>Parametric parts – Build robotic parts via code (2014 – 2015)</li>
-  <li>2 wheel drive robot (2014)</li>
-  <li>Omniwheel robot (2014)</li>
-  <li>Hexapod robot (2012)</li>
-  <li>3D printer (2011)</li>
-</ul>
+<ol>
+  <li><a href="https://github.com/jgrizou/phonebot">Smartphone powered self-driving robot</a> (2021)</li>
+  <li><a href="https://github.com/jgrizou/p5live">p5live – Live refresh of p5.js sketches</a> (2021)</li>
+  <li><a href="https://jgrizou.com/projects/spylock">SpyLock – Android App</a> (2020)</li>
+  <li><a href="https://jgrizou.com/projects/vault">Web application – Self-calibrating code entering interface</a> (2019 – ongoing)</li>
+  <li><a href="https://github.com/croningp/dropfactory">Dropfactory – High-throughput laboratory robot with AI</a> (2015 – 2017)</li>
+  <li><a href="https://jgrizou.com/projects/open-robotics#laboratory-robotics">Tools for open research in chemistry labs</a> (2015 – 2017)</li>
+  <li><a href="https://github.com/poppy-project/poppy-soft-starfish">Soft starfish robot – Building low-cost soft robots</a> (2016)</li>
+  <li><a href="https://jgrizou.com/projects/parametric-parts/">Parametric parts – Build robotic parts via code</a> (2014-2015)</li>
+  <li><a href="https://github.com/jgrizou/robot_2WD">2 wheel drive robot</a> (2014)</li>
+  <li><a href="https://github.com/jgrizou/robot_omniwheel">Omniwheel robot</a> (2014)</li>
+  <li><a href="https://github.com/jgrizou/robot_hexapod">Hexapod robot</a> (2012)</li>
+  <li><a href="https://jgrizou.com/projects/3D_printer">3D printer</a> (2011)</li>
+</ol>
 
 <h2>Student projects</h2>
-<p>Todo: 1, 2, 3, 4, 5, 6, 7. Toolings and demos for Espruino, see 1, 2.</p>
+<p>Todo: <a href="https://github.com/espruino-tools">1</a>, <a href="https://smartcontrollerjs.github.io/SmartController/">2</a>, <a href="https://smartcontrollerjs.github.io/Coin-Chaser/">3</a>, <a href="https://fraser-dempster.github.io/l4-project-interactive-game/">4</a>, <a href="https://github.com/Kirstin813/L4-Individual-Project">5</a>, <a href="https://cmurray95.github.io/espruino-remote-uploader/">6</a>, <a href="https://zhefu8.github.io/joystick.github.io/">7</a>. Toolings and demos for <a href="https://www.espruino.com/" target="_blank" rel="noopener">Espruino</a>, see <a href="https://github.com/espruino-tools" target="_blank" rel="noopener">1</a>, <a href="https://robot-competition.github.io/robot-competition/index.html" target="_blank" rel="noopener">2</a>.</p>
 
 <h2>Miscellaneous</h2>
-<ul>
-  <li>I maintain a list of low-carbon computing teaching resources. (2023 – ongoing)</li>
-</ul>
+<ol>
+  <li>I maintain a <a href="https://codeberg.org/jgrizou/Low-Carbon-Computing-Teaching-Resources">list of low-carbon computing teaching resources</a>. (2023 – ongoing)</li>
+</ol>
 
 <h2>Art</h2>
-<p>Transparent vault was exhibited at the Shanghai Ming Contemporary Art Museum and at the Nuit Blanche in Paris. (2019)</p>
+<ol>
+  <li><a href="https://jgrizou.com/transparent-vault/">Transparent vault</a> was exhibited at the Shanghai Ming Contemporary Art Museum and at the Nuit Blanche in Paris. (2019)</li>
+</ol>
