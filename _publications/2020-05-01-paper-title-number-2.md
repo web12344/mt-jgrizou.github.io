@@ -14,3 +14,4 @@ citation: 'Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Croni
 A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.
 Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020)
 Nature Communications
+[PDF](https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf) | [DOI](https://doi.org/10.1126/sciadv.aay4237) | [Robot Design](https://github.com/croningp/dropfactory) | [Experiment Code](https://github.com/croningp/dropfactory_exploration) | [Analysis Code](https://github.com/croningp/dropfactory_analysis) | [Project](https://jgrizou.com/projects/chemobot#dropfactory)
