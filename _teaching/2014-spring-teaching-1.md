@@ -3,6 +3,9 @@ title: "Teaching"
 collection: teaching
 type: "Course"
 permalink: /teaching/2014-spring-teaching-1
+venue: "University Of Glasgow"
+date: 2020-01-01
+location: " Scotland, United Kingdom"
 ---
 
 
