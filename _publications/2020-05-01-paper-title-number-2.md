@@ -11,7 +11,10 @@ paperurl: 'https://jgrizou.com/projects/chemobot#nanobot'
 citation: 'Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). Nature Communications.'
 ---
 
-A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.
-  Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020).  
-  *Nature Communications.*  
-  [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf) | [DOI](https://doi.org/10.1038/s41467-020-16501-4) | [Project](https://jgrizou.com/projects/chemobot#nanobot)
+**A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.**  
+*Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020)*  
+*Nature Communications*  
+
+- [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf)  
+- [DOI](https://doi.org/10.1038/s41467-020-16501-4)  
+- [Project](https://jgrizou.com/projects/chemobot#nanobot)
