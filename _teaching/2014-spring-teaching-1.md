@@ -5,37 +5,36 @@ type: "University course"
 permalink: /teaching/2014-spring-teaching-1
 ---
 
-<h3>University Courses</h3>
-      <ol>
-        <li>Artificial Intelligence – Decision making and Reinforcement learning (MSc | 2020)</li>
-        <li>
-          Interdisciplinary Design and Innovation (BSc | 2020-2024)
-          <ul>
-            <li>
-              See <a href="https://design-and-innovation-2023.github.io/website/">https://design-and-innovation-2023.github.io/website/</a> for student work with industrial partners.
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="https://github.com/jgrizou/CRI-UE-Robotics">Introduction to robotics</a> using the Zumo robot from Pololu (MSc | 2019)
-        </li>
-      </ol>
-      
-      <h3>Industry Courses</h3>
-      <ul>
-        <li>
-          <a href="https://mlmasterclass.carrd.co/">Apply Machine Learning to your business in 6 weeks</a> (cohort-based | 2021)
-        </li>
-      </ul>
-      
-      <h3>Taster Courses</h3>
-      <ul>
-        <li>
-          <a href="https://jgrizou.com/teaching/pancakes">Teaching machine learning with pancakes</a> (2019)
-        </li>
-      </ul>
-      
-      <h3>Testimonials</h3>
-      <p>
-        See <a href="http://jgrizou.com/testimonials">jgrizou.com/testimonials</a> for testimonials on my teaching.
-      </p>
+
+## University Courses
+
+1. **Artificial Intelligence – Decision making and Reinforcement learning**  
+   _MSc | 2020_
+
+2. **Interdisciplinary Design and Innovation**  
+   _BSc | 2020-2024_  
+   See [Student Work with Industrial Partners](https://design-and-innovation-2023.github.io/website/)
+
+3. **Introduction to Robotics**  
+   _MSc | 2019_  
+   Using the Zumo robot from Pololu. See details [here](https://github.com/jgrizou/CRI-UE-Robotics).
+
+---
+
+## Industry Courses
+
+- [Apply Machine Learning to your business in 6 weeks](https://mlmasterclass.carrd.co/)  
+  _Cohort-based | 2021_
+
+---
+
+## Taster Courses
+
+- [Teaching machine learning with pancakes](https://jgrizou.com/teaching/pancakes)  
+  _2019_
+
+---
+
+## Testimonials
+
+See [Testimonials on My Teaching](http://jgrizou.com/testimonials).
