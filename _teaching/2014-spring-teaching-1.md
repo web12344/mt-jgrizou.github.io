@@ -1,6 +1,7 @@
 ---
 title: "Academics"
 collection: teaching
+permalink: /teaching/2014-spring-teaching-1
 ---
 
 ## University Courses
