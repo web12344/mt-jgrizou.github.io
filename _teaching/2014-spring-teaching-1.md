@@ -3,7 +3,7 @@ title: "Teaching"
 collection: teaching
 type: "Course"
 permalink: /teaching/2014-spring-teaching-1
-date: 2020
+date: 2020-01-01
 ---
 
 
