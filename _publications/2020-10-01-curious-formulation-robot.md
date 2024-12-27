@@ -2,10 +2,10 @@
 title: "A curious formulation robot enables the discovery of a novel protocell behavior."
 collection: publications
 category: manuscripts
-permalink: /publication/2020-10-01-paper-title-number-3
-excerpt: 'A curious formulation robot enables the discovery of a novel protocell behavior.'
+permalink: /publication/2020-10-01-curious-formulation-robot
+excerpt: 'A curious formulation robot enables the discovery of a novel protocell behaviour.'
 date: 2020-10-01
-venue: 'Journal 1'
+venue: 'Science Advances'
 slidesurl: 'https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf'
 paperurl: 'https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf'
 citation: 'Grizou, J., Points, L. J., Sharma, A. & Cronin, L. (2020). Science Advances.'
