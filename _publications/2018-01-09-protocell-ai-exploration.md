@@ -7,6 +7,8 @@ excerpt: "Artificial intelligence exploration of unstable protocells leads to pr
 date: 2018-01-09
 venue: "PNAS – Proceedings of the National Academy of Sciences"
 paperurl: "https://www.pnas.org/content/pnas/early/2018/01/09/1711089115.full.pdf"
+journalurl: "https://www.pnas.org/content/115/5/885.short"
+projecturl: "https://jgrizou.com/projects/chemobot#surfbot"
 citation: "Points, L. J., Taylor, J. W., Grizou, J., Donkers, K., & Cronin, L. (2018). PNAS – Proceedings of the National Academy of Sciences."
 ---
 
