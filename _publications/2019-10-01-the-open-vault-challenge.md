@@ -2,7 +2,7 @@
 title: "The Open Vault Challenge – Learning how to build calibration-free interactive systems by cracking the code of a vault."
 collection: publications
 category: manuscripts
-permalink: /publication/2019-10-01-paper-title-number-1
+permalink: /publication/2019-10-01-the-open-vault-challenge
 excerpt: "The Open Vault Challenge – Learning how to build calibration-free interactive systems by cracking the code of a vault."
 date: 2019-10-01
 venue: "International Joint Conferences on Artificial Intelligence"
