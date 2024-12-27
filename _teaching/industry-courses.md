@@ -10,4 +10,4 @@ location: "Online"
 
 ### Industry Courses
 
-- [Apply Machine Learning to your business in 6 weeks](https://mlmasterclass.carrd.co/) (cohort-based | 2021)
+- **[Apply Machine Learning to your business in 6 weeks](https://mlmasterclass.carrd.co/)** (cohort-based | 2021)
