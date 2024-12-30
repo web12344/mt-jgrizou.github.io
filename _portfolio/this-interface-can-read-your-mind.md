@@ -11,44 +11,31 @@ excerpt: "A web-app to explain self-calibrating interfaces."
 ## This interface can read your mind  
 *Last update: August 2019*  
 
-*“A web-app to explain self-calibrating interfaces.”*  
+*"A web-app to explain self-calibrating interfaces."*
 
 ---
 
 ## Introduction
 
-Below is a typical user interface. It is a code-entering device. To enter a code:  
+Below is a typical user interface. It is a code-entering device.  
 - Look at the digit you want to type.  
-- If it is yellow, click on the yellow button.  
-- If it is grey, click on the grey button.  
+- If it is yellow, click the yellow button.  
+- If it is grey, click the grey button.  
 
-The machine will then find out the digit you have in mind by elimination.  
+The machine will figure out the digit you have in mind by elimination.
 
-![Demo of self-calibrating interface](https://jgrizou.com/wp-content/uploads/2022/11/demo_1x2_2.gif)
+![Demo of interface](https://jgrizou.com/wp-content/uploads/2022/11/demo_1x2_2.gif)
 
-With two big colored buttons, this interface is designed to remove most user choices and channel you to behave in one standardized way. The aim is normative: it is more efficient and convenient for the designers if we all behave the same way, and it is also easier to predict your future actions. Think of apps like Instagram or Twitter—designers have done a great job at funneling our interaction there.
+With two big colored buttons, this interface is designed to remove most user choices and funnel you into standardized behavior. Designers use such approaches in apps like Instagram and Twitter to predict actions more easily.
 
-But let me show you another way to interact with digital devices.
-
-Below is the same interface, but the buttons have no predefined colors. You get to decide the buttons’ color in your mind, and the machine adapts to your preferences on the fly.
+But what if digital devices could adapt to your preferences? Below is the same interface, but the buttons have no predefined colors. You decide the buttons' colors in your mind, and the machine adapts on the fly.
 
 ---
 
 ## Examples of User Choices
 
-<div style="display: flex; gap: 10px; justify-content: center;">
-  <div style="text-align: center;">
-    <img src="https://jgrizou.com/wp-content/uploads/2022/11/demo_3x3_fullpad_1.gif" alt="User 1 choice" width="200">
-    <p>User 1 choice</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="https://jgrizou.com/wp-content/uploads/2022/11/demo_3x3_fullpad_2.gif" alt="User 2 choice" width="200">
-    <p>User 2 choice</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="https://jgrizou.com/wp-content/uploads/2022/11/demo_3x3_fullpad_3.gif" alt="User 3 choice" width="200">
-    <p>User 3 choice</p>
-  </div>
-</div>
+| ![User 1](https://jgrizou.com/wp-content/uploads/2022/11/demo_3x3_fullpad_1.gif) | ![User 2](https://jgrizou.com/wp-content/uploads/2022/11/demo_3x3_fullpad_2.gif) | ![User 3](https://jgrizou.com/wp-content/uploads/2022/11/demo_3x3_fullpad_3.gif) |
+|:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|
+| User 1 choice                                 | User 2 choice                                 | User 3 choice                                 |
 
-Notice how, once revealed, the color patterns on buttons are different for each user. This reflects their personal preferences. Each user typed in the same digit but used the buttons differently to do so. Yet the machine was able to adapt, finding both what the user wanted to do (enter the digit) and how they were trying to do it. I call these self-calibrating interfaces because they adapt to your preferences while you are using them.
+Notice how the color patterns on buttons differ for each user. This reflects personal preferences. The machine adapts, discovering both what users want to do (enter a digit) and how they do it. I call these *self-calibrating interfaces* because they adapt to preferences in real time.
