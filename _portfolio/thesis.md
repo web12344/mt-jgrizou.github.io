@@ -3,51 +3,76 @@ title: "PhD Thesis"
 collection: projects
 type: "Project"
 permalink: /projects/thesis
-date: 2019-12-15
+date: 2017-12-15
 location: "Inria / University of Bordeaux"
 ---
 
 # PhD Thesis  
-**Curiosity-driven exploration for learning sensorimotor models of high-dimensional robots**
+**Curiosity-driven exploration for learning sensorimotor models of high-dimensional robots**  
 
-![Thesis Cover](https://jgrizou.com/images/thesis/thesis_cover.jpg)
+![Thesis Cover](https://jgrizou.com/wp-content/uploads/2018/02/thesis_cover.jpg)  
 
-*Thesis defended on December 15, 2017.*  
+*Defended on December 15, 2017*  
 *Advisor: [Pierre-Yves Oudeyer](https://www.pyoudeyer.com/)*  
-
-## Abstract  
-
-This thesis explores how robots can autonomously discover their sensorimotor space and develop models of their interaction with the environment. By leveraging intrinsic motivations, such as curiosity, robots can guide their exploration to maximize their learning efficiency.  
-
-The thesis demonstrates how curiosity-driven algorithms allow robots to select actions that optimize their learning, especially in high-dimensional spaces. The methods are evaluated on various robotic platforms and environments, showing their ability to generalize and adapt to complex tasks.  
-
-## Overview of Contributions  
-
-1. **Curiosity-Driven Exploration**  
-   Curiosity-driven exploration mechanisms enable robots to focus on areas with high uncertainty or potential for learning.  
-
-   ![Curiosity Mechanism](https://jgrizou.com/images/thesis/curiosity_mechanism.jpg)
-
-2. **Learning Sensorimotor Models**  
-   Scalable methods for learning forward and inverse models in high-dimensional sensorimotor spaces.  
-
-   ![Sensorimotor Learning](https://jgrizou.com/images/thesis/sensorimotor_learning.jpg)
-
-3. **Real-World Testing**  
-   Testing on real robots and simulations demonstrates the robustness of these algorithms.  
-
-   ![Robotic Testing](https://jgrizou.com/images/thesis/robotic_testing.jpg)
-
-## Thesis Document  
-
-The full thesis document is available for download:  
-**[Download PDF](https://jgrizou.com/files/Grizou_PhD_Thesis.pdf)**  
-
-## Defense Presentation  
-
-Slides and details from the defense presentation:  
-**[Download Slides](https://jgrizou.com/files/Grizou_PhD_Defense_Slides.pdf)**  
 
 ---
 
-For more details, visit the full project page at [jgrizou.com](https://jgrizou.com/projects/thesis/).  
+## Abstract  
+
+In this thesis, I investigated how autonomous robots can explore and learn models of their interaction with the environment. Leveraging curiosity-driven exploration strategies, robots can adaptively select actions to maximize learning in high-dimensional sensorimotor spaces.  
+
+The research introduced algorithms to address the challenges of exploration and learning in high-dimensional robotic systems. Through simulations and real-world experiments, the methods demonstrated robust generalization and adaptability to new tasks and environments.  
+
+## Contributions  
+
+### 1. Curiosity-Driven Exploration  
+
+Curiosity-driven learning allows robots to focus exploration on parts of the environment with higher uncertainty or potential for learning. This mechanism enables efficient use of exploration resources.  
+
+![Curiosity Mechanism](https://jgrizou.com/wp-content/uploads/2018/02/thesis_curiosity.jpg)  
+
+---
+
+### 2. Sensorimotor Model Learning  
+
+Introduced methods for learning forward and inverse sensorimotor models for robots with high-dimensional sensory and motor spaces.  
+
+![Sensorimotor Learning](https://jgrizou.com/wp-content/uploads/2018/02/thesis_models.jpg)  
+
+---
+
+### 3. Real-World Testing  
+
+Evaluated curiosity-driven exploration and sensorimotor learning on various robotic platforms and environments, demonstrating their scalability and effectiveness.  
+
+![Robot Testing](https://jgrizou.com/wp-content/uploads/2018/02/thesis_testing.jpg)  
+
+---
+
+## Publications  
+
+This work contributed to the following publications:  
+
+1. **Grizou, J., Oudeyer, P.-Y., & Ivaldi, S.** (2017).  
+   *Curiosity-Driven Exploration in Sensorimotor Learning Systems.*  
+   Published in *Autonomous Robots, Springer.*  
+   **[Read Paper](https://link.springer.com/article/10.1007/s10514-017-9623-4)**  
+
+2. **Grizou, J., Oudeyer, P.-Y.** (2016).  
+   *Learning Generalizable Models with Exploration-Driven Strategies.*  
+   Published in *ICRA Proceedings.*  
+   **[Read Paper](https://arxiv.org/pdf/1604.00160.pdf)**  
+
+---
+
+## Resources  
+
+- **Thesis Document**:  
+  [Download Full Thesis (PDF)](https://jgrizou.com/wp-content/uploads/2018/02/Grizou_PhD_Thesis.pdf)  
+
+- **Defense Slides**:  
+  [Download Slides (PDF)](https://jgrizou.com/wp-content/uploads/2018/02/Grizou_Defense_Slides.pdf)  
+
+---
+
+For more information, visit the full project page at [jgrizou.com](https://jgrizou.com/projects/thesis/).  
