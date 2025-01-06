@@ -95,3 +95,68 @@ Our first demonstration of this work involved a pick-and-place robot that had to
 
 Example of interaction. The robot performs an action and I provide feedback on the action according to its optimality towards building a specific cube configuration I have in mind. I use my voice to provide the feedback, and the robot does not know initially which sounds I use to mean correct or incorrect. Not my best video 🙂
 
+
+We evaluated the performance of our algorithm in simulation using pre-recorded spoken words and a model of the robotic task. We showed that it is possible to learn the meaning of unknown and noisy teaching instructions, as well as a new task at the same time. And that the performance can vary depending on the classifier we use to measure consistency or the planning heuristic we use to select the agent action.
+
+![HRI Learning](https://jgrizou.com/wp-content/uploads/2022/11/hri_learning.png)
+
+Each plot shows the computed probability of the correct task per number of human-robot interaction. Left: Study of different classifiers. Right: Study of different planning heuristics.
+
+We then showed that once a first task has been identified, it is possible to reuse the acquired knowledge about instructions for learning new tasks much faster. Indeed, once a first task is identified, we can revisit the history of interactions and assign the true label to each signal, enabling us to build a signal decoder and removing one side of our problem.
+
+![HRI Reuse](https://jgrizou.com/wp-content/uploads/2022/11/hri_reuse.png)
+*Once a first task is learned using our method, the second task is much faster to learn as we can train an explicit signal-to-meaning classifier.*
+
+### Resources
+1. **Robot learning simultaneously a task and how to interpret human instructions.** Grizou, J., Lopes, M., & Oudeyer, P.-Y. (2013). *Development and Learning and Epigenetic Robotics (ICDL), 2013 IEEE Third Joint International Conference on.* **Student Travels Award.** [pdf](https://hal.archives-ouvertes.fr/hal-00850703/document) [slides](https://github.com/jgrizou/publications/tree/master/paper/conference/2013_icdl)
+
+In later studies, we developed a new uncertainty measure taking into account the uncertainty on the task space and the signal space. This metric can be used to select the next actions of our agent in order to solve the problem faster. This measure is non-intuitive as it is a mix of trying to disambiguate the possible tasks, while trying to disambiguate the possible signal-to-meaning mappings, both often requiring opposite actions. By explicitly measuring the joint uncertainty, our agents were able to reduce considerably the time to identify a first task. Planning was key for the success of our BCI application.
+
+![UAI Planning](https://jgrizou.com/wp-content/uploads/2022/11/uai_planning.png)
+*Number of iterations to identify a first task from unlabeled instructions. The planning method has a significant impact on performance. Planning using our uncertainty measure outperformed all other methods. Using only an uncertainty measure based on the tasks performs poorly. A 50% greedy on task / 50% random policy has shown good performance, showing the non-intuitive aspect of the planning problem.*
+
+### Resources
+1. **Interactive Learning from Unlabeled Instructions.** Grizou, J., Iturrate, I., Montesano, L., Oudeyer, P.-Y., & Lopes, M. (2014). *Conference on Uncertainty in Artificial Intelligence (UAI).* [pdf](https://hal.archives-ouvertes.fr/hal-01007689/PDF/grizou2014interactive.pdf) [poster](https://github.com/jgrizou/publications/tree/master/paper/conference/2014_uai)
+
+### Can humans solve this problem?
+Inspired by the above results, we devised an experimental setup to investigate the processes used by humans to negotiate a protocol of interaction when they do not already share one. More information on the [dedicated project page](https://jgrizou.github.io/website/projects/coco_game).
+
+## Awards
+I received the [Prix Le Monde de la Recherche Universitaire 2015](https://www.lemonde.fr/kiosque/recherche/laureats/prix-recherche-laureats-2015.html) for this work. Each year, this prize is awarded to 5 young French scientists across all fields of ‘hard’ science. [Cédric Villani](https://en.wikipedia.org/wiki/C%C3%A9dric_Villani) (2010 Fields Medal) chaired the jury. We [co-authored](https://www.amazon.fr/Cedric-Villani-pr%C3%A9sente-laur%C3%A9ats-monde/dp/2746510944/) a book featuring the work of each laureate. More: [Application letter](https://jgrizou.github.io/website/projects/thesis/media/candidature_prix_le_monde.pdf) [INRIA article](http://www.inria.fr/centre/bordeaux/actualites/j.-grizou-laureat-du-prix-le-monde-de-la-recherche-universitaire) [HuffPost article](http://www.huffingtonpost.fr/2016/02/08/ordinateur-lire-pensees-ma-these-en-deux-minutes_n_9168306.html)
+
+I received the [student travel award](http://www.er.ams.eng.osaka-u.ac.jp/icdl-epirob-2013/index.html) for our first paper on the topic titled: *Robot Learning Simultaneously a Task and How to Interpret Human Instructions, ICDL-EpiRob, 2013*.
+
+## Additional Resources
+### PhD Defense
+[Watch the video here](https://www.youtube.com/embed/w62IF3qj8-E?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fjgrizou.com&widgetid=3)
+
+Download the [slides](https://github.com/jgrizou/thesis_manuscript/releases/download/final/defense_slides.pdf) and the [manuscript](https://github.com/jgrizou/thesis_manuscript/releases/download/final/thesis.pdf).
+
+### Videos
+Tutorial:
+- Introduction: [https://youtu.be/rPGYqylud1k](https://youtu.be/rPGYqylud1k)
+- How it works: [https://youtu.be/NFKh6V9zgaY](https://youtu.be/NFKh6V9zgaY)
+- Planning: [https://youtu.be/1sshBzWM7u8](https://youtu.be/1sshBzWM7u8)
+
+[All related videos](https://www.youtube.com/playlist?list=PLBppiRCztuKohELU34f2LBQ8-8X8R8zo0)
+
+### Publications
+1. **The Open Vault Challenge–Learning how to build calibration-free interactive systems by cracking the code of a vault.** Grizou, Jonathan (2019). *International Joint Conferences on Artificial Intelligence.* [pdf](https://arxiv.org/pdf/1906.02485.pdf) [project](https://jgrizou.github.io/website/projects/thesis)
+2. **Learning from Unlabeled Interaction Frames.** Grizou, J. (2014). *PhD Thesis.* **PhD Thesis Award.** [pdf](https://github.com/jgrizou/thesis_manuscript/releases/final/) [code](https://github.com/jgrizou/thesis_code) [latex](https://github.com/jgrizou/thesis_manuscript)
+3. **Exploiting task constraints for self-calibrated brain-machine interface control using error-related potentials.** Iturrate, I., Grizou, J., Omedes, J., Oudeyer, P., Lopes, M., et al. (2015). *PloS one.* [pdf](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131491) [github](https://github.com/flowersteam/self_calibration_BCI_plosOne_2015)
+4. **Calibration-Free BCI Based Control.** Grizou, J., Iturrate, I., Montesano, L., Oudeyer, P.-Y., & Lopes, M. (2014). *International AAAI Conference on Artificial Intelligence.* [pdf](https://hal.archives-ouvertes.fr/hal-00984068/PDF/grizou2014calibration.pdf) [poster](https://github.com/jgrizou/publications/tree/master/paper/conference/2014_aaai)
+5. **Interactive Learning from Unlabeled Instructions.** Grizou, J., Iturrate, I., Montesano, L., Oudeyer, P.-Y., & Lopes, M. (2014). *Conference on Uncertainty in Artificial Intelligence (UAI).* [pdf](https://hal.archives-ouvertes.fr/hal-01007689/PDF/grizou2014interactive.pdf) [poster](https://github.com/jgrizou/publications/tree/master/paper/conference/2014_uai)
+6. **Robot learning simultaneously a task and how to interpret human instructions.** Grizou, J., Lopes, M., & Oudeyer, P.-Y. (2013). *Development and Learning and Epigenetic Robotics (ICDL), 2013 IEEE Third Joint International Conference on.* **Student Travels Award.** [pdf](https://hal.archives-ouvertes.fr/hal-00850703/document) [slides](https://github.com/jgrizou/publications/tree/master/paper/conference/2013_icdl)
+
+## Personal Notes
+I am still looking for a real-world application that can be useful to a wider number of people. Any ideas?
+
+## Footnotes
+1. Let me explain the title:
+   - **Learning** means the agent should be able to perform something new at the end of the day, which should not be programmed by hand in the system.
+   - **Interactive learning** means the agent is acting in the world and receiving feedback from its environment.
+   - **Interactive learning from instructions** means the agent learns by receiving instructions (e.g., “go left”, “go right”, “it was correct”, “it was incorrect”) in an interactive way. Such instructions are conveyed by a human (or another machine/agent) in the form of a discrete or continuous signal (speech, gesture, brain activity, etc.).
+   - **Interactive learning from unlabelled instructions** means the instructions are known to be of a specific type, i.e., there exist hidden labels (e.g., only feedback instruction of type correct/incorrect). However, the agent does not know the mapping between the instruction signals (speech, gesture, brain activity, etc.) and their labels/meanings.
+
+[Back To Top](https://jgrizou.github.io/website/projects/thesis/#)
+
