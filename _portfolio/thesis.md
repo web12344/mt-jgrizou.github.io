@@ -8,7 +8,7 @@ location: "Inria / University of Bordeaux"
 ---
 
 # PhD Thesis  
-**Curiosity-driven exploration for learning sensorimotor models of high-dimensional robots**  
+**An intriguing AI paradigm: interactive learning from unlabeled instructions**  
 
 ![Thesis Cover](https://jgrizou.com/wp-content/uploads/2018/02/thesis_cover.jpg)  
 
@@ -16,6 +16,13 @@ location: "Inria / University of Bordeaux"
 *Advisor: [Pierre-Yves Oudeyer](https://www.pyoudeyer.com/)*  
 
 ---
+
+Providing you neither know the game of chess nor the French language, could you learn the rules of chess from a person speaking French? In machine learning, this problem is usually avoided by freezing one of the unknowns (e.g. chess or french) during a calibration phase. During my PhD, I tackled the full problem and proposed an innovative solution based on a measure of consistency of the interaction. We applied our method to human-robot and brain-computer interaction and studied how humans solve this problem. This work was awarded a PhD price handed by Cédric Villani (2010 Fields Medal).
+
+## Approach
+
+Can an agent learn a task from human instruction signals without knowing the meaning of the communicative signals? Can we learn from unlabeled instructions? [1] The problem resemble a chicken-and-egg scenario: to learn the task you need to know the meaning of the instructions (interactive learning), and to learn the meaning of the instructions you need to know the task (supervised learning). However, a common assumption is made when tackling each of the above problems independently: the user providing the instructions or labels is acting consistently with respect to the task and to its own signal-to-meaning mapping. In short, the user is not acting randomly but is trying to guide the machine towards one goal and using the same signal to mean the same things. The user is consistent.
+
 
 ## Abstract  
 
