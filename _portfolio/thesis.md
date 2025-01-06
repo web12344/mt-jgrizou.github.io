@@ -157,5 +157,3 @@ I am still looking for a real-world application that can be useful to a wider nu
    - **Interactive learning** means the agent is acting in the world and receiving feedback from its environment.
    - **Interactive learning from instructions** means the agent learns by receiving instructions (e.g., “go left”, “go right”, “it was correct”, “it was incorrect”) in an interactive way. Such instructions are conveyed by a human (or another machine/agent) in the form of a discrete or continuous signal (speech, gesture, brain activity, etc.).
    - **Interactive learning from unlabelled instructions** means the instructions are known to be of a specific type, i.e., there exist hidden labels (e.g., only feedback instruction of type correct/incorrect). However, the agent does not know the mapping between the instruction signals (speech, gesture, brain activity, etc.) and their labels/meanings.
-
-
