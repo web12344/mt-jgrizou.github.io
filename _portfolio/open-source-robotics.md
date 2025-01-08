@@ -7,8 +7,6 @@ date: 2019-01-15
 location: "Inria / University of Bordeaux"
 ---
 
-<main id="main" class="site-main">
-
 ### Open source robotics
 _Last update: January 2019_
 
