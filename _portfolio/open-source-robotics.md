@@ -170,3 +170,99 @@ You can then plug the board into a computer and use the following code to contro
 *Code on the Python side.*
 - [Poppy Forum](https://forum.poppy-project.org/)
 - [GitHub](https://github.com/poppy-project)
+
+Commanduino makes quick iterative development possible using Arduino and Python, even for beginners. It is particularly useful when designing new robots without well-defined specifications, as it requires adapting on the fly to the problems you encounter.
+
+However, that amount of user-side readability on Arduino code required a fairly complex code architecture, and adding new devices is a job for advanced programmers.
+
+**Libraries:**  
+[Commanduino](https://github.com/croningp/commanduino)  
+[Arduino CommandTools](https://github.com/croningp/Arduino-CommandTools)  
+[Arduino CommandHandler](https://github.com/croningp/Arduino-CommandHandler)  
+[Graham Keenan](https://github.com/ShinRa26) wrote the documentation and coded additional devices.
+
+---
+
+## Pump Control
+
+I developed `pycont`, a Python library to control Tricontinent C3000 pumps. It is meant to be easy to use and transparent so that when reading your program, you can actually know what is going on.  
+[Graham Keenan](https://github.com/ShinRa26) wrote the documentation. More details on [GitHub](https://github.com/croningp/pycont).
+
+---
+
+## Modular Syringe Driver
+
+I designed a small linear actuator with interchangeable tools that is very handy for developing custom laboratory robots. The appeal of this device is its modularity, as many different additions can be designed and printed.  
+[Graham Keenan](https://github.com/ShinRa26) wrote the documentation. More details on [GitHub](https://github.com/croningp/ModularSyringeDriver) and [OnShape](https://cad.onshape.com/documents/56ab4447e4b0dff6d869c7ac/w/10403a3c4431f66501924e81/e/ad868b310df8ef7bb56f2516).
+
+![3D design of the modular actuator](https://jgrizou.com/wp-content/uploads/2022/11/cronin_syringe.png)  
+*3D design of the modular actuator with interchangeable tools.*
+
+![Modular syringe fully assembled](https://jgrizou.com/wp-content/uploads/2022/11/cronin_syringe_real.png)  
+*A modular syringe fully assembled.*
+
+---
+
+## Droplet Tracking
+
+A collection of software tools to handle various video-related tasks, including recording a video, setting webcam parameters, and tracking moving droplets in a petri dish. More details on [GitHub](https://github.com/croningp/chemobot_tools).
+
+---
+
+## Dropfactory Robot
+
+The [Dropfactory robot](https://github.com/croningp/dropfactory) is a great example of what can be made when combining the above tools. The design and code are entirely open source, see [GitHub](https://github.com/croningp/dropfactory).
+
+![Open source laboratory robot](https://jgrizou.com/wp-content/uploads/2022/11/cronin_dropfactory.gif)  
+*Open source laboratory robot I developed.*
+
+I developed this robot to undertake [research on the efficiency of curious algorithms on the exploration of chemical systems](https://jgrizou.github.io/website/projects/chemobot#dropfactory). Dropfactory can perform 300 droplet experiments a day in full autonomy (each experiment requires recording of 1m30s). Compared to previous robots, this is a 6-fold improvement and a major leap in reliability. This robot performed more than 20k droplet experiments while I worked in the Cronin group and routinely functioned for 12 hours per day.
+
+---
+
+# Startup – Pollen Robotics and Luos
+
+Together with Matthieu Lapeyre, Pierre Rouanet, and Nicolas Rabault, we co-founded [Pollen Robotics](http://pollen-robotics.com/).
+
+![Co-founders of Pollen Robotics](https://jgrizou.com/wp-content/uploads/2022/11/pollen_team.jpg)  
+*The co-founders. From left to right: Pierre Rouanet, Jonathan Grizou, Nicolas Rabault, Matthieu Lapeyre.*
+
+Our objective was to make robotics more accessible by commercializing our tools for the quick creation of robots, specifically a technology for modular robotics comprising a communication bus called Robus. Below was our attempt to explain that technology.
+
+[![Luos pitch to YC Startup School](https://img.youtube.com/vi/EwVGfkn3y_k/0.jpg)](https://www.youtube.com/embed/EwVGfkn3y_k)  
+*Luos pitch to YC Startup School.*
+
+[![Luos technology principle and example](https://img.youtube.com/vi/ula16zdZgDk/0.jpg)](https://www.youtube.com/embed/ula16zdZgDk)  
+*Luos technology principle and example.*
+
+While at Pollen Robotics, we developed a variety of robots to showcase the technology’s versatility. Among them were a human-sized robotic arm and a small dynamic quadruped robot.
+
+[![Reachy – Human size robotic arm](https://img.youtube.com/vi/L4fB0rVJI8g/0.jpg)](https://www.youtube.com/embed/L4fB0rVJI8g)  
+*Reachy – Human size robotic arm.*
+
+[![Doggy – Robotic gaming platform](https://img.youtube.com/vi/wQul6ANDb80/0.jpg)](https://www.youtube.com/embed/wQul6ANDb80)  
+*Doggy – Robotic gaming platform.*
+
+The team also designed a very cheap (< $2 in parts) educational robot in collaboration with the [Nathan](https://editions.nathan.fr/) French publishing house. The resulting product is called [Robot Labo](http://robotlabo.nathan.fr/) and was commercialized in physical shops all over France for Christmas 2018.
+
+[![Robot Labo promotional video](https://img.youtube.com/vi/fZtLp7vPts0/0.jpg)](https://www.youtube.com/embed/fZtLp7vPts0)  
+*Promotional video of Robot Labo.*
+
+![Packaging of Robot Labo](https://jgrizou.com/wp-content/uploads/2022/11/pollen_robot_labo-294x300.png)  
+*Packaging of Robot Labo.*
+
+I voluntarily departed from Pollen Robotics in 2018 following a pivot. This pivot led to a split in the activities and the creation of a second startup, [Luos Robotics](https://www.luos.io). At the time of this writing, [Pollen Robotics](https://www.pollen-robotics.com/) is a robotic design studio that starts from an idea to develop a functioning product, while [Luos Robotics](https://www.luos.io/) aims to commercialize the Robus modular technology. We were awarded a [European SME Instrument H2020 grant](https://ec.europa.eu/programmes/horizon2020/en/h2020-section/sme-instrument) for this project.
+
+![Logo of Pollen Robotics](https://jgrizou.com/wp-content/uploads/2022/11/pollen_logo.png)  
+*Logo of Pollen Robotics.*
+
+![Logo of Luos Robotics](https://jgrizou.com/wp-content/uploads/2022/11/luos_logo-300x234.png)  
+*Logo of Luos Robotics.*
+
+---
+
+# Personal Projects
+
+Personal projects are listed on the project page, under the ["Stuff I built"](https://jgrizou.com/website/projects/#stuff) section.
+
+---
