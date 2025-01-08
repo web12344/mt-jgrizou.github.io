@@ -107,5 +107,66 @@ The ErgoJr robot is the primary robot used by [Poppy Education](https://www.popp
 - [Poppy Project](https://www.poppy-project.org/en/)
 - [Poppy Education](https://www.poppy-education.org/)
 - [Poppy Station](https://www.poppystation.org/)
+
+### Personal Contributions
+
+Between 2012 and 2016, as part of the founding team, I had an active role in the development of the project. I was especially active on the [forum](https://forum.poppy-project.org/) to develop the community. I built, and contributed to, several tools and robots.
+
+#### First ErgoJr  
+I built the [first version](https://twitter.com/jgrizou/status/563646210058502145) of the ErgoJr robot. In the quest of modular robot design, I developed a set of OpenScad libraries to develop parametric robotic parts using code. Full details on the [dedicated project page](https://jgrizou.github.io/website/projects/parametric_parts).
+
+![The first Poppy ErgoJr robot jumping.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_first_ergo.jpg)  
+*The first Poppy ErgoJr robot jumping.*
+
+![Robots designed by code.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_mini_familly.png)  
+*Robots designed by code.*
+
+#### ErgoJr in the Browser  
+Using [three.js](https://threejs.org/), I developed an ErgoJr model that can be interacted with directly in the browser. This enables students to play and test code on the robot without having access to a physical robot. Thanks to Pierre Rouanet, the web simulator can be controlled with exactly the same code library as the physical robot.
+
+<iframe class="elementor-video" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/Hl0-hBIGIPw"></iframe>  
+*Demonstration of the control of ErgoJr in the browser via Python.*
+
+<iframe class="elementor-video" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/T9FwFOBoz7Y"></iframe>  
+*Pierre Rouanet demonstrates the link between the physical and the simulated robot.*
+
+For more information:  
+- [Demo](http://simu.poppy-project.org/poppy-ergo-jr/)  
+- [Getting Started](https://docs.poppy-project.org/en/getting-started/visualize.html#using-our-web-visualizer)  
+- [Website](http://simu.poppy-project.org/)  
+- [Forum Thread](https://forum.poppy-project.org/t/ergojr-in-the-browser/1609)
+
+#### Soft Robots  
+I developed a method to integrate flexible silicon parts that can be easily designed and built at a very low cost (>1$). I designed a soft starfish robot as a proof of principle.
+
+![A robot with flexible parts.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_soft.gif)  
+*A robot with flexible parts.*
+
+For more information:  
+- [Github soft starfish](https://github.com/poppy-project/poppy-soft-starfish)  
+- [Github soft connector](https://github.com/poppy-project/poppy-soft-connector)  
+- [Forum Thread](https://forum.poppy-project.org/t/poppy-soft-connector/2152)
+
+### Laboratory Robotics
+
+Between 2015 and 2018, I led a team of interdisciplinary researchers in a Chemistry lab on the [digitization of Chemistry](https://jgrizou.github.io/website/projects/chemobot). As a trained roboticist, I developed tools to help less experienced programmers build automated laboratory devices and robots. Below are some tools I developed, with more available on the [Cronin group Github page](https://github.com/croningp).
+
+#### Commanduino – Arduino Control in Python  
+The [Commanduino](https://github.com/croningp/commanduino) library is a Python library used to communicate with Arduino devices via Python, as opposed to hardcoding behavior onto the Arduino itself.
+
+I introduced modularity in the design of Arduino-based robots. To add a new device (motor, servo, sensor), one needs to add a few lines of code on the Arduino board. This device then becomes controllable via Python on a connected computer. The following diagram shows the architecture of Commanduino, highlighting its communication layers.
+
+![Architecture of the Commanduino layers of communication.](https://jgrizou.com/wp-content/uploads/2022/11/cronin_arduino.png)  
+*Architecture of the Commanduino layers of communication.*
+
+With Commanduino, an Arduino main file becomes simple to write, focusing only on the device you want to control. For example, registering a servo on pin 9:
+
+![Code on the Arduino side.](https://jgrizou.com/wp-content/uploads/2022/11/cronin_code_arduino.png)  
+*Code on the Arduino side.*
+
+You can then plug the board into a computer and use the following code to control and read from the servo:
+
+![Code on the Python side.](https://jgrizou.com/wp-content/uploads/2022/11/cronin_code_python.png)  
+*Code on the Python side.*
 - [Poppy Forum](https://forum.poppy-project.org/)
 - [GitHub](https://github.com/poppy-project)
