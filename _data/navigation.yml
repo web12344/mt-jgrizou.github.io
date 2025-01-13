@@ -8,23 +8,23 @@ main:
   # - title: "Home"
   #   url: /publications/
 
-  - title: "About"
-    url: /talks/
+  # - title: "About"
+  #  url: /talks/
 
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #  url: /portfolio/
 
   - title: "Projects"
     url: /projects/
 
-  - title: "Contact"
-    url: /year-archive/
+  # - title: "Contact"
+  #  url: /year-archive/
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Testimonials"
-    url: /markdown/
+  #- title: "Testimonials"
+   # url: /markdown/
