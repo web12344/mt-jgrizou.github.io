@@ -25,7 +25,7 @@ main:
     external: true
 
   - title: "Essays"
-    URL: https://blog.jgrizou.com/essays/
+    url: https://blog.jgrizou.com/essays/
     weight: 5
     external: true
     
