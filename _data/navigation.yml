@@ -11,20 +11,35 @@ main:
   # - title: "About"
   #  url: /talks/
 
+  - title: "Consulting"
+    url: https://www.grizai.com/
+    weight: 5
+    external: true
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Publications"
+    url: https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate
+    weight: 5
+    external: true
+
+  - title: "Essays"
+    URL: https://blog.jgrizou.com/essays/
+    weight: 5
+    external: true
+    
   - title: "Teaching"
     url: /teaching/
 
   # - title: "Portfolio"
   #  url: /portfolio/
 
-  - title: "Projects"
-    url: /projects/
+  #- title: "Projects"
+  #  url: /projects/
 
   # - title: "Contact"
   #  url: /year-archive/
-
-  - title: "Publications"
-    url: /publications/
 
   #- title: "Testimonials"
    # url: /markdown/
