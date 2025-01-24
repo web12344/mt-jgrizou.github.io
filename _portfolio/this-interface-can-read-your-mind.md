@@ -1,7 +1,7 @@
 ---
 title: "This interface can read your mind"
 collection: projects
-permalink: /project/this-interface-can-read-your-mind
+permalink: /projects/this-interface-can-read-your-mind
 date: 2019-08-01
 excerpt: "A web-app to explain self-calibrating interfaces."
 ---
