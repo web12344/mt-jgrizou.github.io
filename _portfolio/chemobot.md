@@ -266,4 +266,47 @@ They presented a liquid-handling robot built with the aim of investigating the p
 [![Robotic exploration of droplets](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_diagram-768x206.jpg)](https://youtu.be/JSEZdo29rc8)
 
 
+<p>The first droplet robot made in the Cronin group.</p>
+
+<p>In separate experiments, the fitness function discriminates based on movement, division and vibration over 21 cycles, giving successive fitness increases. Analysis and theoretical modelling of the data yields fitness landscapes analogous to the genotype–phenotype correlations found in biological evolution.</p>
+
+![Image](https://jgrizou.com/wp-content/uploads/2022/11/dropbot_result-768x445.jpg)
+
+### Resources
+
+**Evolution of oil droplets in a chemorobotic platform.** Gutierrez, J. M. P., Hinkley, T., Taylor, J. W., Yanev, K., & Cronin, L. (2014). *Nature Communications, 5, 5571.* [PDF](https://www.nature.com/articles/ncomms6571.pdf) [Journal](https://www.nature.com/articles/ncomms6571)
+
+## Resources
+
+### Workshop
+In 2017, we organized a [workshop](https://croningp.github.io/tutorial_icdl_epirob_2017/) providing an extensive overview of this research. [PDF](https://croningp.github.io/tutorial_icdl_epirob_2017/tutorial_proposal_final.pdf) [Slides](https://github.com/croningp/tutorial_icdl_epirob_2017/releases/tag/slides) [Website](https://croningp.github.io/tutorial_icdl_epirob_2017/)
+
+### Code and tools
+We have developed a collection of software and hardware tools that has been made open source to help further research in this area. These tools are described on the [open robotics project page](https://jgrizou.github.io/website/projects/open_robotics/#laboratory-robotics) and available on the [Cronin group GitHub account](https://github.com/croningp).
+
+### Publications
+
+1. **A curious formulation robot enables the discovery of a novel protocell behavior.** Grizou, J., Points, L. J., Sharma, A. & Cronin, L. (2020). *Science Advances.* [PDF](https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf) [DOI](https://doi.org/10.1126/sciadv.aay4237) [Robot Design](https://github.com/croningp/dropfactory) [Experiment Code](https://github.com/croningp/dropfactory_exploration) [Analysis Code](https://github.com/croningp/dropfactory_analysis) [Project](https://jgrizou.github.io/website/projects/chemobot#dropfactory)
+2. **A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.** Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). *Nature Communications.* [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf) [DOI](https://doi.org/10.1038/s41467-020-16501-4) [Project](https://jgrizou.github.io/website/projects/chemobot#nanobot)
+3. **Intuition-enabled Machine Learning beats the Competition when Joint Human-Robot Teams perform Inorganic Chemical Experiments.** Duros, V., Grizou, J., Sharma, A., Mehr, S.H.M., Bubliauskas, A., Frei, P., Miras, H.N. and Cronin, L. (2019). *Journal of Chemical Information and Modeling.* [PDF](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304) [Journal](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304) [Project](https://jgrizou.github.io/website/projects/chemobot#human-vs-robots)
+4. **Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behavior.** Points, L. J., Taylor, J. W., Grizou, J., Donkers, K., & Cronin, L. (2018). *PNAS – Proceedings of the National Academy of Sciences, 201711089.* [PDF](https://www.pnas.org/content/pnas/early/2018/01/09/1711089115.full.pdf) [Journal](https://www.pnas.org/content/115/5/885.short)
+5. **Adaptive artificial evolution of droplet protocells in a 3D-printed fluidic chemorobotic platform with configurable environments.** Parrilla-Gutierrez, J. M., Tsuda, S., Grizou, J., Taylor, J., Henson, A., & Cronin, L. (2017). *Nature Communications, 8(1), 1144.* [PDF](https://www.nature.com/articles/s41467-017-01161-8.pdf) [Journal](https://www.nature.com/articles/s41467-017-01161-8)
+6. **The evolution of active droplets in chemorobotic platforms.** Points, L. J., Grizou, J., Gutierrez, J. M. P., Taylor, J. W., & Cronin, L. (2017). *Artificial Life Conference Proceedings 14.* [PDF](https://www.mitpressjournals.org/doi/pdfplus/10.1162/isal_a_059)
+7. **Human vs Robots in the Discovery and Crystallization of Gigantic Polyoxometalates.** Grizou, J., Duros, V., Xuan, W., Hosni, Z., Long, D.-L., Miras H., Cronin L. (2017). *Angewandte Chemie 129.36: 10955-10960.* [PDF](https://core.ac.uk/download/pdf/84148587.pdf) [SI](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fanie.201705721&file=anie201705721-sup-0001-misc_information.pdf) [Code](https://github.com/croningp/crystal_active_learning) [Journal](http://dx.doi.org/10.1002/anie.201705721)
+8. **Developmental robotics in a chemistry lab.** Grizou, J., Points L.J., Cronin, L. (2017). *Development and Learning and Epigenetic Robotics (ICDL-Epirob), 2017 Joint IEEE International Conferences on.* [PDF](https://croningp.github.io/tutorial_icdl_epirob_2017/tutorial_proposal_final.pdf) [Slides](https://github.com/croningp/tutorial_icdl_epirob_2017/releases/tag/slides) [Website](https://croningp.github.io/tutorial_icdl_epirob_2017/)
+9. **Evolution of oil droplets in a chemorobotic platform.** Gutierrez, J. M. P., Hinkley, T., Taylor, J. W., Yanev, K., & Cronin, L. (2014). *Nature Communications, 5, 5571.* [PDF](https://www.nature.com/articles/ncomms6571.pdf) [Journal](https://www.nature.com/articles/ncomms6571)
+
+## Personal Notes
+
+The above work – done between 2015 and 2018 – is the application of ideas from a small subfield of machine learning and robotics, called [developmental robotics](https://en.wikipedia.org/wiki/Developmental_robotics) (see my [PhD lab](https://flowers.inria.fr/)), to an emerging field at the intersection of robotics, AI, and chemistry.
+
+I believe the projects we showcased provide a good window into future applications of AI and robotics in formulation sciences. More specifically in R&D departments to help find new formulations for consumer goods and medical treatments, under the ever-evolving constraints from law enforcement (forbidden compounds, environment preservation), resource exhaustion, and budget optimization. The research presented above can significantly reduce the time and resources needed for the development of new products. Especially useful will be machines that can explore rather than optimize and collaborate with humans rather than replace them.
+
+I also believe that constraints from working on physical systems in the labs can be beneficial to the field of AI. When the only solution to querying data is to perform time-consuming and costly experiments, it forces AI practitioners to redefine their working methodology and might change the focus of what matters when designing new algorithms.
+
+I am eager to see this research applied outside the lab. Do not hesitate to get in touch to share ideas or discuss potential projects.
+
+## Footnotes
+
+[1](https://jgrizou.com/projects/chemobot/#1fn): There are good reasons for that, convenience and speed for fundamental research is one, but also because a lot of problems worth solving can be captured adequately by data and simulation. My point focuses on hands-on experiments in laboratories.
 
