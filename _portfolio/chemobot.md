@@ -141,3 +141,38 @@ Average for the crystallization prediction accuracy between the classes of cryst
    Grizou, J., Duros, V., Xuan, W., et al.
 
    
+
+After several cycles and the application of a genetic algorithm (GA), the fitness factor at each stage increased every generation leading towards the desired outcome. Our system could synthesise recursively gold nanospheres, gold nanorods (AuNRs), and arrow-headed gold nanorods with high reproducibility.
+
+![Gold Nanoparticles Evolution](https://jgrizou.com/wp-content/uploads/2022/11/nano_result-768x653.png)
+_Left: Evolution of the median fitness per generation. Middle: Comparison between UV-Vis spectrum of particles described in the literature and the best particles obtained with the robot. Right: TEM image of the particles that correspond to the UV-Vis spectrum shown._
+
+Our results show that the evolution of nanomaterials is possible in a fully automated fashion and has the potential to change the way AuNPs are studied and explored.
+
+## Resources
+1. **A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.** Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). *Nature Communications.* [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf) | [DOI](https://doi.org/10.1038/s41467-020-16501-4) | [Project](https://jgrizou.github.io/website/projects/chemobot#nanobot)
+
+### Physical environment as an experiment variable
+Evolution via natural selection is governed by the persistence and propagation of living things in an environment. The environment is important since it contributes to shaping evolution. Although evolution has been widely studied in a variety of fields from biology to computer science, still little is known about the impact of environmental changes on an artificial chemical evolving system outside of computer simulations.
+
+We developed a fully automated 3D-printed chemorobotic fluidic system that is able to generate and select droplet protocells in real time while changing the surroundings where they undergo artificial evolution.
+
+![Flowbot Diagram](https://jgrizou.com/wp-content/uploads/2022/11/flowbot_diagram-768x599.jpg)
+_Schematic describing the evolutionary process. In the first step, a computer generates random recipes using ratios of 1-octanol, octanoic acid, 1-pentanol, and diethyl phthalate. These oils are then mixed through a serpentine channel, and populations of five droplets are generated in the evolutionary arena. The droplet behaviours are then analysed and ranked using a fitness function. The best droplets are selected, and new droplet formulations were generated after “mutation” and “crossover” operations._
+
+Compared to our previous work, the use of a 3D-printed device enables us to change the physical environment in which the droplet population evolves. The 3D printed platform also innovates as no moving parts are required to initiate, run, and clean droplet experiments.
+
+![3D-Printed System](https://jgrizou.com/wp-content/uploads/2022/11/flowbot_platform.jpg)
+_Schematic of the 3D-printed system. Chemical inputs are handled by pumps. Droplet mixtures are formed through a serpentine channel and pushed to form droplets into an evolutionary arena. A camera records the arena from above. Image processing algorithms are used to analyse and categorise the droplet behaviours._
+
+### Videos
+- [Trailer of the platform in action](https://youtu.be/RzqkPU0Pa3Q)
+- [Droplet recipes evolving through a genetic algorithm in different arenas](https://youtu.be/UJSlCrCaaAo)
+
+Using such 3D-printed devices, we were able to change the physical environment in which the droplet population evolves. We thus explicitly studied how the genotype is modulated through a programmable environment to express its phenotype, in contrast to the more studied genotype-to-phenotype direct approach.
+
+By successively evolving the droplets from one environment to another, we were able to observe disruption in their evolutionary trajectories, as well as adaptation of their genome.
+
+![Environmental Change Results](https://jgrizou.com/wp-content/uploads/2022/11/flowbot_result-768x337.png)
+_Environmental change results. Fitness evolution over generation. The first 10 generations used an empty arena, the following 10 generations used an arena filled with pillars, and the last 10 generations used the arena generated using an L-system. The arena was swapped to the pillars environment between the 10th and 11th generation, inducing a drop in the fitness values, which forced the droplet to adapt and evolve again in the new environment. The arena was swapped to the L-system between generations 20 and 21, introducing no noticeable fitness changes._
+
