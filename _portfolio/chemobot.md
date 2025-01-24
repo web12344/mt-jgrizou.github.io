@@ -78,3 +78,66 @@ By applying the CA-robot to the study of self-propelling multicomponent oil-in-w
 ---
 
 **[More information and tools](https://github.com/croningp)**  
+
+## Summary of Results
+
+![Summary of the results](https://jgrizou.com/wp-content/uploads/2022/11/dropfactory_result-768x600.png)
+
+<figcaption>
+Summary of the results. Left: (A) % of explored space. CA explored 3.3 times more than random. (B, C) Observations made by each method for each repeat; each scatter dot represents a single droplet experiment. CA (B) leads to a greater variety of observations than random (C). Right: Effect of temperature. (D) Number of experiments with a speed faster than 3 mms-1. A change of only ca. 4.4°C led to a significant difference in the observed droplet behaviours when using the CA (395 vs 93, p=0.005), which is not observed when using random (28 vs 19, p=0.22). This is confirmed by (E) and (F) which show the distribution of observation. The CA enabled the discovery of the temperature effect.
+</figcaption>
+
+---
+
+Once the temperature dependence was discovered, six modes of self-propelled droplet motion were identified and classified using a time-temperature phase diagram and probed using a variety of techniques including NMR, which allowed the design of a payload release system triggered by temperature. This work illustrates how target-free search can significantly increase the rate of unpredictable observations leading to new discoveries with potential applications in formulation chemistry.
+
+### Video: Effect of Temperature on Droplet Motion
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/80yAmBkzdmM?controls=1&rel=0&playsinline=0&modestbranding=0&cc_load_policy=0&autoplay=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## Resources
+
+1. **A curious formulation robot enables the discovery of a novel protocell behavior.**  
+   Grizou, J., Points, L. J., Sharma, A. & Cronin, L. (2020). *Science Advances*.  
+   [PDF](https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf) | [DOI](https://doi.org/10.1126/sciadv.aay4237) | [Robot Design](https://github.com/croningp/dropfactory) | [Experiment Code](https://github.com/croningp/dropfactory_exploration) | [Analysis Code](https://github.com/croningp/dropfactory_analysis) | [Project](https://jgrizou.github.io/website/projects/chemobot#dropfactory)
+
+---
+
+## Human vs Robots
+
+![Automated platform in the lab](https://jgrizou.com/wp-content/uploads/2022/11/hvr_pom.png)
+![Experimental setup](https://jgrizou.com/wp-content/uploads/2022/11/hvr_platform.png)
+
+The discovery of new gigantic molecules formed by self-assembly and crystal growth is challenging as it combines two contingent events: the formation of a new molecule and its crystallization. We constructed an automated workflow that can probe both events and employed it for a new polyoxometalate cluster which has a trigonal-ring type architecture.
+
+### Representation of Methods
+
+![Experimental method](https://jgrizou.com/wp-content/uploads/2022/11/hvr_diagram.png)  
+Representation of the experimental method showing how the automated and bench work was done.
+
+![Schematic diagram](https://jgrizou.com/wp-content/uploads/2022/11/hvr_method.png)  
+Schematic diagram of the exploration methods. All experiments are performed on a crystallization robotic platform.
+
+---
+
+A critical constraint was that we could only perform 10 experiments per day. We ran the active learning in batches of 10 experiments, performing 10 iterations for a total of 100 experiments per method and repeat. This required 10 days and significant reagents to validate the approach for the first time. The results showed that the active learning algorithmic search increased the crystallization prediction accuracy to **82.4 ± 0.7%** compared to **77.1 ± 0.9%** from human experimenters given the same experimental budget.
+
+### Results
+
+![Prediction Accuracy](https://jgrizou.com/wp-content/uploads/2022/11/hvr_result.png)  
+Average for the crystallization prediction accuracy between the classes of crystals and non-crystals for the three methods, using a RandomForest classifier.
+
+---
+
+## Additional Resources
+
+1. **Intuition-enabled Machine Learning beats the Competition when Joint Human-Robot Teams perform Inorganic Chemical Experiments.**  
+   Duros, V., Grizou, J., Sharma, A., Mehr, S.H.M., et al. (2019). *Journal of Chemical Information and Modeling*.  
+   [PDF](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304) | [Journal](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304) | [Project](https://jgrizou.github.io/website/projects/chemobot#human-vs-robots)
+
+2. **Human vs Robots in the Discovery and Crystallization of Gigantic Polyoxometalates.**  
+   Grizou, J., Duros, V., Xuan, W., et al.
+
+   
