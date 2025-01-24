@@ -176,3 +176,94 @@ By successively evolving the droplets from one environment to another, we were a
 ![Environmental Change Results](https://jgrizou.com/wp-content/uploads/2022/11/flowbot_result-768x337.png)
 _Environmental change results. Fitness evolution over generation. The first 10 generations used an empty arena, the following 10 generations used an arena filled with pillars, and the last 10 generations used the arena generated using an L-system. The arena was swapped to the pillars environment between the 10th and 11th generation, inducing a drop in the fitness values, which forced the droplet to adapt and evolve again in the new environment. The arena was swapped to the L-system between generations 20 and 21, introducing no noticeable fitness changes._
 
+
+## Resources
+
+1. **Adaptive artificial evolution of droplet protocells in a 3D-printed fluidic chemorobotic platform with configurable environments.**  
+   Parrilla-Gutierrez, J. M., Tsuda, S., Grizou, J., Taylor, J., Henson, A., & Cronin, L. (2017).  
+   *Nature Communications, 8(1), 1144.*  
+   [PDF](https://www.nature.com/articles/s41467-017-01161-8.pdf) | [Journal](https://www.nature.com/articles/s41467-017-01161-8)
+
+---
+
+### AI as a tool to understand complex systems
+
+Exploring and understanding the emergence of complex behaviors is difficult even in “simple” chemical systems since the dynamics can rest on a knife edge between stability and instability.
+
+We study the dynamics of oil droplets in an aqueous environment using an automated platform equipped with artificial intelligence. Compared to previous work, we increased the number of experimental parameters and allowed the robot to choose both the concentration of oils in the droplets and the concentration of surfactants in the aqueous phase. Our aim was to identify more droplet behaviors and understand better the mechanisms behind them.
+
+---
+
+#### Video: Surfbot - Platform
+[![Surfbot - Platform](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_evospeed.png)](https://youtu.be/yp5018y_6tM)
+
+---
+
+### Operation of the Platform
+
+To test the platform, we started by running evolutionary experiments and comparing them to our previous work.
+
+---
+
+#### Comparison of Median Fitness Values
+![Comparison of median fitness values](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_evospeed.png)  
+*Comparison of median fitness values per generation between the oil-only, aqueous-only, and aqueous-oil optimizations.*
+
+---
+
+#### Video: Surfbot - Highspeed
+[![Surfbot - Highspeed](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_diagram-768x206.jpg)](https://youtu.be/dO-1Jy1e76g)  
+*Comparison of speed achieved with the oil-only, aqueous-only, and aqueous-oil optimizations.*
+
+---
+
+By opening the parameter space to the chemical environment of the droplets, we were able to generate faster-moving droplets. The recipes and data generated from this process were then used for physicochemical analysis, where traditional chemical analysis, machine learning, and archetypal droplet experiments are used to study the behavioral mechanisms and to predict droplet behaviors.
+
+---
+
+![Robotic exploration and AI](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_diagram-768x206.jpg)  
+*This work combined robotic exploration and AI to identify behaviors with traditional physical chemical analysis augmented with AI.*
+
+---
+
+The data acquired were used to build predictive models of the system, of which no physical model, or only inaccurate models, were available.
+
+---
+
+![Physical property plots](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_svm-768x245.jpg)  
+*Plots of the predicted density (Left), dynamic viscosity (Center), and surface tension (Right) against their measured values. Blue points are predicted using weighted mean (density) and Arrhenius-based method (viscosity), while red values are predicted using an SVM regressor.*
+
+---
+
+Physical properties such as viscosity, surface tension, and density are shown to be related to behaviors, as well as to droplet behavioral niches, such as collective swarming. By dying droplets with phenolphthalein, we could observe the internal dynamics within the droplets and depending on their composition. For example, pentanol goes very pink, has rapid flows, and dissolves, while DEP only goes pink at the interface.
+
+---
+
+#### Video: Surfbot - Dye
+[![Dye experiments](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_svm-768x245.jpg)](https://youtu.be/-fqDohfLYTA)  
+*Dye experiments showing the complex flow of chemicals inside the droplets.*
+
+---
+
+## Resources
+
+1. **Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behaviorAdaptive artificial evolution of droplet protocells in a 3D-printed fluidic chemorobotic platform with configurable environments.**  
+   Laurie J. Points, James Ward Taylor, Jonathan Grizou, Kevin Donkers, and Leroy Cronin (2018).  
+   *PNAS, 115(5), 885-890.*  
+   [PDF](https://www.pnas.org/doi/epdf/10.1073/pnas.1711089115) | [Journal](https://doi.org/10.1073/pnas.1711089115)
+
+---
+
+### Black Box Optimization of Oil-in-Water Droplets
+
+This work focuses on the optimization of the dynamic properties of droplets on a robotic platform. It was completed before I joined the Cronin group and made me realize it became possible to apply a range of new exploration methods freshly developed in computer science research groups directly on physical systems in the lab.
+
+They presented a liquid-handling robot built with the aim of investigating the properties of oil droplets as a function of composition via an automated evolutionary process. The robot makes the droplets by mixing four different compounds in different ratios and placing them in a Petri dish, after which they are recorded using a camera and the behavior of the droplets is analyzed using image recognition software to give a fitness value.
+
+---
+
+#### Video: Robotic Exploration of Droplets
+[![Robotic exploration of droplets](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_diagram-768x206.jpg)](https://youtu.be/JSEZdo29rc8)
+
+
+
