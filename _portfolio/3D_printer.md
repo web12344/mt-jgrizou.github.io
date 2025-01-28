@@ -6,11 +6,6 @@ permalink: /projects/3D_printer
 date: 2018-12-15
 ---
 
----
-title: "3D Printer"
-description: "Journey of building a 3D printer back in 2011 and its milestones."
----
-
 ### 3D Printer
 
 I built a 3D printer back in 2011 when 3D printing at home was just beginning.
