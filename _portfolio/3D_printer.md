@@ -3,7 +3,7 @@ title: "3D Printer"
 collection: projects
 type: "Project"
 permalink: /projects/3D_printer
-date: 2018-12-15
+date: 2011-12-11
 ---
 
 ### 3D Printer
