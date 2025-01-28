@@ -2,7 +2,7 @@
 title: "Parametric Parts"
 collection: projects
 type: "Project"
-permalink: /projects/parametric-parts
+permalink: /projects/parametric-parts/
 date: 2017-12-15
 ---
 
