@@ -24,7 +24,7 @@ Below is a typical user interface. It is a code-entering device.
 
 The machine will figure out the digit you have in mind by elimination.
 
-![Demo of interface](images/demo_1x2_2.gif)
+![Demo of interface](../images/demo_1x2_2.gif)
 
 With two big colored buttons, this interface is designed to remove most user choices and funnel you into standardized behavior. Designers use such approaches in apps like Instagram and Twitter to predict actions more easily.
 
@@ -34,7 +34,7 @@ But what if digital devices could adapt to your preferences? Below is the same i
 
 ## Examples of User Choices
 
-| ![User 1](images/demo_3x3_fullpad_1.gif) | ![User 2](images/demo_3x3_fullpad_2.gif) | ![User 3](images/demo_3x3_fullpad_3.gif) |
+| ![User 1](../images/demo_3x3_fullpad_1.gif) | ![User 2](../images/demo_3x3_fullpad_2.gif) | ![User 3](../images/demo_3x3_fullpad_3.gif) |
 |:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|
 | User 1 choice                                 | User 2 choice                                 | User 3 choice                                 |
 
@@ -75,23 +75,23 @@ Feel free to [get in touch](https://jgrizou.com/contact/).
 ### Demo Images and Links
 
 #### 2 buttons  
-![2 buttons](images/demo_1x2_2-1.gif)  
+![2 buttons](../images/demo_1x2_2-1.gif)  
 [2 buttons demo](https://jgrizou.com/projects/vault/demo/1x2/)
 
 #### 9 buttons  
-![9 buttons](images/demo_3x3_fullpad_1.gif)  
+![9 buttons](../images/demo_3x3_fullpad_1.gif)  
 [9 buttons demo](https://jgrizou.com/projects/vault/demo/3x3/)
 
 #### Touch  
-![Touch](images/demo_touch_1.gif)  
+![Touch](../images/demo_touch_1.gif)  
 [Touch demo](https://jgrizou.com/projects/vault/demo/1x2/)
 
 #### Draw  
-![Draw](images/demo_draw_1.gif)  
+![Draw](../images/demo_draw_1.gif)  
 [Draw demo](https://jgrizou.com/projects/vault/demo/1x2/)
 
 #### Speak  
-![Speak](images/demo_audio_1.gif)  
+![Speak](../images/demo_audio_1.gif)  
 [speak demo](https://jgrizou.com/projects/vault/demo/1x2/)
 
 #### Keyword  
