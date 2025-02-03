@@ -59,7 +59,7 @@ A subfield of robotics, called [developmental robotics](https://en.wikipedia.org
 
 ## Team
 
-![The Chemobot Team](https://jgrizou.com/wp-content/uploads/2022/11/team.png)  
+![The Chemobot Team](../images/team.png)  
 _The Chemobot team from 2015–2018 within the Cronin group, University of Glasgow. Missing: Kevin Donkers._
 
 The team was composed of Lee Cronin (PI), Jonathan Grizou (me), Abhishek Sharma, Jan Szymanski, James W. Taylor, Juan Manuel Parrilla Gutierrez, Laurie J. Points, Vasilios Duros, Sergio Martin Marti, Graham Keenan, and Kevin Donkers. A mix of chemists, computer scientists, and material scientists.
@@ -81,7 +81,7 @@ By applying the CA-robot to the study of self-propelling multicomponent oil-in-w
 
 ## Summary of Results
 
-![Summary of the results](https://jgrizou.com/wp-content/uploads/2022/11/dropfactory_result-768x600.png)
+![Summary of the results](../images/dropfactory_result-768x600.png)
 
 <figcaption>
 Summary of the results. Left: (A) % of explored space. CA explored 3.3 times more than random. (B, C) Observations made by each method for each repeat; each scatter dot represents a single droplet experiment. CA (B) leads to a greater variety of observations than random (C). Right: Effect of temperature. (D) Number of experiments with a speed faster than 3 mms-1. A change of only ca. 4.4°C led to a significant difference in the observed droplet behaviours when using the CA (395 vs 93, p=0.005), which is not observed when using random (28 vs 19, p=0.22). This is confirmed by (E) and (F) which show the distribution of observation. The CA enabled the discovery of the temperature effect.
@@ -107,17 +107,17 @@ Once the temperature dependence was discovered, six modes of self-propelled drop
 
 ## Human vs Robots
 
-![Automated platform in the lab](https://jgrizou.com/wp-content/uploads/2022/11/hvr_pom.png)
-![Experimental setup](https://jgrizou.com/wp-content/uploads/2022/11/hvr_platform.png)
+![Automated platform in the lab](../images/hvr_pom.png)
+![Experimental setup](../images/hvr_platform.png)
 
 The discovery of new gigantic molecules formed by self-assembly and crystal growth is challenging as it combines two contingent events: the formation of a new molecule and its crystallization. We constructed an automated workflow that can probe both events and employed it for a new polyoxometalate cluster which has a trigonal-ring type architecture.
 
 ### Representation of Methods
 
-![Experimental method](https://jgrizou.com/wp-content/uploads/2022/11/hvr_diagram.png)  
+![Experimental method](../images/hvr_diagram.png)  
 Representation of the experimental method showing how the automated and bench work was done.
 
-![Schematic diagram](https://jgrizou.com/wp-content/uploads/2022/11/hvr_method.png)  
+![Schematic diagram](../images/hvr_method.png)  
 Schematic diagram of the exploration methods. All experiments are performed on a crystallization robotic platform.
 
 ---
@@ -126,7 +126,7 @@ A critical constraint was that we could only perform 10 experiments per day. We 
 
 ### Results
 
-![Prediction Accuracy](https://jgrizou.com/wp-content/uploads/2022/11/hvr_result.png)  
+![Prediction Accuracy](../images/hvr_result.png)  
 Average for the crystallization prediction accuracy between the classes of crystals and non-crystals for the three methods, using a RandomForest classifier.
 
 ---
@@ -144,7 +144,7 @@ Average for the crystallization prediction accuracy between the classes of cryst
 
 After several cycles and the application of a genetic algorithm (GA), the fitness factor at each stage increased every generation leading towards the desired outcome. Our system could synthesise recursively gold nanospheres, gold nanorods (AuNRs), and arrow-headed gold nanorods with high reproducibility.
 
-![Gold Nanoparticles Evolution](https://jgrizou.com/wp-content/uploads/2022/11/nano_result-768x653.png)
+![Gold Nanoparticles Evolution](../images/nano_result-768x653.png)
 _Left: Evolution of the median fitness per generation. Middle: Comparison between UV-Vis spectrum of particles described in the literature and the best particles obtained with the robot. Right: TEM image of the particles that correspond to the UV-Vis spectrum shown._
 
 Our results show that the evolution of nanomaterials is possible in a fully automated fashion and has the potential to change the way AuNPs are studied and explored.
@@ -157,12 +157,12 @@ Evolution via natural selection is governed by the persistence and propagation o
 
 We developed a fully automated 3D-printed chemorobotic fluidic system that is able to generate and select droplet protocells in real time while changing the surroundings where they undergo artificial evolution.
 
-![Flowbot Diagram](https://jgrizou.com/wp-content/uploads/2022/11/flowbot_diagram-768x599.jpg)
+![Flowbot Diagram](../images/flowbot_diagram-768x599.jpg)
 _Schematic describing the evolutionary process. In the first step, a computer generates random recipes using ratios of 1-octanol, octanoic acid, 1-pentanol, and diethyl phthalate. These oils are then mixed through a serpentine channel, and populations of five droplets are generated in the evolutionary arena. The droplet behaviours are then analysed and ranked using a fitness function. The best droplets are selected, and new droplet formulations were generated after “mutation” and “crossover” operations._
 
 Compared to our previous work, the use of a 3D-printed device enables us to change the physical environment in which the droplet population evolves. The 3D printed platform also innovates as no moving parts are required to initiate, run, and clean droplet experiments.
 
-![3D-Printed System](https://jgrizou.com/wp-content/uploads/2022/11/flowbot_platform.jpg)
+![3D-Printed System](../images/flowbot_platform.jpg)
 _Schematic of the 3D-printed system. Chemical inputs are handled by pumps. Droplet mixtures are formed through a serpentine channel and pushed to form droplets into an evolutionary arena. A camera records the arena from above. Image processing algorithms are used to analyse and categorise the droplet behaviours._
 
 ### Videos
@@ -173,7 +173,7 @@ Using such 3D-printed devices, we were able to change the physical environment i
 
 By successively evolving the droplets from one environment to another, we were able to observe disruption in their evolutionary trajectories, as well as adaptation of their genome.
 
-![Environmental Change Results](https://jgrizou.com/wp-content/uploads/2022/11/flowbot_result-768x337.png)
+![Environmental Change Results](../images/flowbot_result-768x337.png)
 _Environmental change results. Fitness evolution over generation. The first 10 generations used an empty arena, the following 10 generations used an arena filled with pillars, and the last 10 generations used the arena generated using an L-system. The arena was swapped to the pillars environment between the 10th and 11th generation, inducing a drop in the fitness values, which forced the droplet to adapt and evolve again in the new environment. The arena was swapped to the L-system between generations 20 and 21, introducing no noticeable fitness changes._
 
 
@@ -195,7 +195,7 @@ We study the dynamics of oil droplets in an aqueous environment using an automat
 ---
 
 #### Video: Surfbot - Platform
-[![Surfbot - Platform](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_evospeed.png)](https://youtu.be/yp5018y_6tM)
+[![Surfbot - Platform](../images/surfbot_evospeed.png)](https://youtu.be/yp5018y_6tM)
 
 ---
 
@@ -206,13 +206,13 @@ To test the platform, we started by running evolutionary experiments and compari
 ---
 
 #### Comparison of Median Fitness Values
-![Comparison of median fitness values](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_evospeed.png)  
+![Comparison of median fitness values](../images/surfbot_evospeed.png)  
 *Comparison of median fitness values per generation between the oil-only, aqueous-only, and aqueous-oil optimizations.*
 
 ---
 
 #### Video: Surfbot - Highspeed
-[![Surfbot - Highspeed](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_diagram-768x206.jpg)](https://youtu.be/dO-1Jy1e76g)  
+[![Surfbot - Highspeed](../images/surfbot_diagram-768x206.jpg)](https://youtu.be/dO-1Jy1e76g)  
 *Comparison of speed achieved with the oil-only, aqueous-only, and aqueous-oil optimizations.*
 
 ---
@@ -221,7 +221,7 @@ By opening the parameter space to the chemical environment of the droplets, we w
 
 ---
 
-![Robotic exploration and AI](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_diagram-768x206.jpg)  
+![Robotic exploration and AI](../images/surfbot_diagram-768x206.jpg)  
 *This work combined robotic exploration and AI to identify behaviors with traditional physical chemical analysis augmented with AI.*
 
 ---
@@ -230,7 +230,7 @@ The data acquired were used to build predictive models of the system, of which n
 
 ---
 
-![Physical property plots](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_svm-768x245.jpg)  
+![Physical property plots](../images/surfbot_svm-768x245.jpg)  
 *Plots of the predicted density (Left), dynamic viscosity (Center), and surface tension (Right) against their measured values. Blue points are predicted using weighted mean (density) and Arrhenius-based method (viscosity), while red values are predicted using an SVM regressor.*
 
 ---
@@ -240,7 +240,7 @@ Physical properties such as viscosity, surface tension, and density are shown to
 ---
 
 #### Video: Surfbot - Dye
-[![Dye experiments](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_svm-768x245.jpg)](https://youtu.be/-fqDohfLYTA)  
+[![Dye experiments](../images/surfbot_svm-768x245.jpg)](https://youtu.be/-fqDohfLYTA)  
 *Dye experiments showing the complex flow of chemicals inside the droplets.*
 
 ---
@@ -263,14 +263,14 @@ They presented a liquid-handling robot built with the aim of investigating the p
 ---
 
 #### Video: Robotic Exploration of Droplets
-[![Robotic exploration of droplets](https://jgrizou.com/wp-content/uploads/2022/11/surfbot_diagram-768x206.jpg)](https://youtu.be/JSEZdo29rc8)
+[![Robotic exploration of droplets](../images/surfbot_diagram-768x206.jpg)](https://youtu.be/JSEZdo29rc8)
 
 
 <p>The first droplet robot made in the Cronin group.</p>
 
 <p>In separate experiments, the fitness function discriminates based on movement, division and vibration over 21 cycles, giving successive fitness increases. Analysis and theoretical modelling of the data yields fitness landscapes analogous to the genotype–phenotype correlations found in biological evolution.</p>
 
-![Image](https://jgrizou.com/wp-content/uploads/2022/11/dropbot_result-768x445.jpg)
+![Image](../images/dropbot_result-768x445.jpg)
 
 ### Resources
 
