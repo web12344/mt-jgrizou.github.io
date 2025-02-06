@@ -15,7 +15,7 @@ Whereas previous work has sought to explicitly optimize the legibility of behavi
 
 We did so by optimizing fast and successful completion of joint human-robot tasks through policy improvement with stochastic optimization. Two experiments with human subjects show that robots are able to adapt their behavior so that humans become better at predicting sooner the robot’s intentions, which leads to faster and more robust overall task completion.
 
-![Illustration of the robotic setup using Baxter](https://jgrizou.com/wp-content/uploads/2022/11/setup-1.png)
+![Illustration of the robotic setup using Baxter](../images/setup-1.png)
 
 _Illustration of the robotic setup using Baxter_
 
