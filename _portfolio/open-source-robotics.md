@@ -12,10 +12,10 @@ _Last update: January 2019_
 
 *Robots are coming! Or so they say. I have been interested in robotics for as long as I can remember. Over the years, I struggled my way through the understanding of all technical parts of robot building. And once I became an expert, I grew frustrated by how unnecessarily painful it was to put a robot together. With some friends and colleagues, we have decided to take our part into making robotics more accessible. Below are our attempts, from an open source robotics community of makers, artists, educators, and scientists, to accessible tools for chemists, we even created a start-up.*
 
-![The first Poppy ErgoJr robot jumping.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_ergojr_jumping-1.gif)
+![The first Poppy ErgoJr robot jumping.](../images/poppy_ergojr_jumping-1.gif)
 <figcaption>The first Poppy ErgoJr robot jumping.</figcaption>
 
-![Open source laboratory robot I developed.](https://jgrizou.com/wp-content/uploads/2022/11/cronin_dropfactory.gif)
+![Open source laboratory robot I developed.](../images/cronin_dropfactory.gif)
 <figcaption>Open source laboratory robot I developed.</figcaption>
 
 ---
@@ -57,19 +57,19 @@ The start-up [Pollen Robotics](https://jgrizou.github.io/website/projects/open_r
 ##### History
 The [Poppy Project](https://www.poppy-project.org/en/) was born in 2012 in the Flowers Laboratory at INRIA Bordeaux Sud-Ouest. It was initiated during Matthieu Lapeyre’s PhD Thesis supervised by Pierre-Yves Oudeyer. At the beginning, the development team included Matthieu Lapeyre (mechanics & design), Pierre Rouanet (software), and myself (electronics).
 
-![Matthieu Lapeyre with the first version of Poppy Humanoid.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_matthieu.jpg)
+![Matthieu Lapeyre with the first version of Poppy Humanoid.](../images/poppy_matthieu.jpg)
 <figcaption>Matthieu Lapeyre with the first version of Poppy Humanoid.</figcaption>
 
 The project grew into an international open-source initiative and gathered a [community](https://forum.poppy-project.org/) of makers, artists, educators, and scientists.
 
-![Left: A Poppy Humanoid kit. Middle: Poppy Torso and Poppy ErgoJr. Right: Poppy ErgoJr.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_family-1.png)
+![Left: A Poppy Humanoid kit. Middle: Poppy Torso and Poppy ErgoJr. Right: Poppy ErgoJr.](../images/poppy_family-1.png)
 <figcaption>Left: A Poppy Humanoid kit. Middle: Poppy Torso and Poppy ErgoJr. Right: Poppy ErgoJr.</figcaption>
 
 Our robots were later used in a national education program to teach robotics and programming in schools. Didier Roy and Pierre-Yves Oudeyer led this effort, forming the [Poppy Education](https://www.poppy-education.org/) project at INRIA. This effort gained national recognition, resulting in the creation of an independent educator association, [Poppy Station](https://www.poppystation.org/).
 
 *Fun fact:* Our Humanoid robot met François Hollande, the President of France.
 
-![Humanoid robot with François Hollande](https://jgrizou.com/wp-content/uploads/2022/11/poppy_president.jpeg)
+![Humanoid robot with François Hollande](../images/poppy_president.jpeg)
 
 ##### Flagship Projects
 1. **Poppy Humanoid**
@@ -91,10 +91,10 @@ Our robots were later used in a national education program to teach robotics and
    - Designed for easy 3D printing and assembly.
    - Code, 3D designs, and documentation are available on GitHub ([>75 stars](https://github.com/poppy-project/poppy-ergo-jr)).
 
-![ErgoJr robot jumping.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_ergojr_jumping-300x300.gif)
+![ErgoJr robot jumping.](../images/poppy_ergojr_jumping-300x300.gif)
 <figcaption>The first Poppy ErgoJr robot jumping.</figcaption>
 
-![ErgoJr robot with different tool endings.](https://jgrizou.com/wp-content/uploads/2022/11/ergojr_variation.jpg)
+![ErgoJr robot with different tool endings.](../images/ergojr_variation.jpg)
 <figcaption>ErgoJr robot with different tool endings.</figcaption>
 
 [![Poppy ErgoJr Overview](https://img.youtube.com/vi/cXHeD8XeZTc/0.jpg)](https://www.youtube.com/watch?v=cXHeD8XeZTc)
@@ -115,10 +115,10 @@ Between 2012 and 2016, as part of the founding team, I had an active role in the
 #### First ErgoJr  
 I built the [first version](https://twitter.com/jgrizou/status/563646210058502145) of the ErgoJr robot. In the quest of modular robot design, I developed a set of OpenScad libraries to develop parametric robotic parts using code. Full details on the [dedicated project page](https://jgrizou.github.io/website/projects/parametric_parts).
 
-![The first Poppy ErgoJr robot jumping.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_first_ergo.jpg)  
+![The first Poppy ErgoJr robot jumping.](../images/poppy_first_ergo.jpg)  
 *The first Poppy ErgoJr robot jumping.*
 
-![Robots designed by code.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_mini_familly.png)  
+![Robots designed by code.](../images/poppy_mini_familly.png)  
 *Robots designed by code.*
 
 #### ErgoJr in the Browser  
@@ -139,7 +139,7 @@ For more information:
 #### Soft Robots  
 I developed a method to integrate flexible silicon parts that can be easily designed and built at a very low cost (>1$). I designed a soft starfish robot as a proof of principle.
 
-![A robot with flexible parts.](https://jgrizou.com/wp-content/uploads/2022/11/poppy_soft.gif)  
+![A robot with flexible parts.](../images/poppy_soft.gif)  
 *A robot with flexible parts.*
 
 For more information:  
@@ -156,17 +156,17 @@ The [Commanduino](https://github.com/croningp/commanduino) library is a Python l
 
 I introduced modularity in the design of Arduino-based robots. To add a new device (motor, servo, sensor), one needs to add a few lines of code on the Arduino board. This device then becomes controllable via Python on a connected computer. The following diagram shows the architecture of Commanduino, highlighting its communication layers.
 
-![Architecture of the Commanduino layers of communication.](https://jgrizou.com/wp-content/uploads/2022/11/cronin_arduino.png)  
+![Architecture of the Commanduino layers of communication.](../images/cronin_arduino.png)  
 *Architecture of the Commanduino layers of communication.*
 
 With Commanduino, an Arduino main file becomes simple to write, focusing only on the device you want to control. For example, registering a servo on pin 9:
 
-![Code on the Arduino side.](https://jgrizou.com/wp-content/uploads/2022/11/cronin_code_arduino.png)  
+![Code on the Arduino side.](../images/cronin_code_arduino.png)  
 *Code on the Arduino side.*
 
 You can then plug the board into a computer and use the following code to control and read from the servo:
 
-![Code on the Python side.](https://jgrizou.com/wp-content/uploads/2022/11/cronin_code_python.png)  
+![Code on the Python side.](../images/cronin_code_python.png)  
 *Code on the Python side.*
 - [Poppy Forum](https://forum.poppy-project.org/)
 - [GitHub](https://github.com/poppy-project)
@@ -195,10 +195,10 @@ I developed `pycont`, a Python library to control Tricontinent C3000 pumps. It i
 I designed a small linear actuator with interchangeable tools that is very handy for developing custom laboratory robots. The appeal of this device is its modularity, as many different additions can be designed and printed.  
 [Graham Keenan](https://github.com/ShinRa26) wrote the documentation. More details on [GitHub](https://github.com/croningp/ModularSyringeDriver) and [OnShape](https://cad.onshape.com/documents/56ab4447e4b0dff6d869c7ac/w/10403a3c4431f66501924e81/e/ad868b310df8ef7bb56f2516).
 
-![3D design of the modular actuator](https://jgrizou.com/wp-content/uploads/2022/11/cronin_syringe.png)  
+![3D design of the modular actuator](../images/cronin_syringe.png)  
 *3D design of the modular actuator with interchangeable tools.*
 
-![Modular syringe fully assembled](https://jgrizou.com/wp-content/uploads/2022/11/cronin_syringe_real.png)  
+![Modular syringe fully assembled](../images/cronin_syringe_real.png)  
 *A modular syringe fully assembled.*
 
 ---
@@ -213,7 +213,7 @@ A collection of software tools to handle various video-related tasks, including 
 
 The [Dropfactory robot](https://github.com/croningp/dropfactory) is a great example of what can be made when combining the above tools. The design and code are entirely open source, see [GitHub](https://github.com/croningp/dropfactory).
 
-![Open source laboratory robot](https://jgrizou.com/wp-content/uploads/2022/11/cronin_dropfactory.gif)  
+![Open source laboratory robot](../images/cronin_dropfactory.gif)  
 *Open source laboratory robot I developed.*
 
 I developed this robot to undertake [research on the efficiency of curious algorithms on the exploration of chemical systems](https://jgrizou.github.io/website/projects/chemobot#dropfactory). Dropfactory can perform 300 droplet experiments a day in full autonomy (each experiment requires recording of 1m30s). Compared to previous robots, this is a 6-fold improvement and a major leap in reliability. This robot performed more than 20k droplet experiments while I worked in the Cronin group and routinely functioned for 12 hours per day.
@@ -224,7 +224,7 @@ I developed this robot to undertake [research on the efficiency of curious algor
 
 Together with Matthieu Lapeyre, Pierre Rouanet, and Nicolas Rabault, we co-founded [Pollen Robotics](http://pollen-robotics.com/).
 
-![Co-founders of Pollen Robotics](https://jgrizou.com/wp-content/uploads/2022/11/pollen_team.jpg)  
+![Co-founders of Pollen Robotics](../images/pollen_team.jpg)  
 *The co-founders. From left to right: Pierre Rouanet, Jonathan Grizou, Nicolas Rabault, Matthieu Lapeyre.*
 
 Our objective was to make robotics more accessible by commercializing our tools for the quick creation of robots, specifically a technology for modular robotics comprising a communication bus called Robus. Below was our attempt to explain that technology.
@@ -248,15 +248,15 @@ The team also designed a very cheap (< $2 in parts) educational robot in collabo
 [![Robot Labo promotional video](https://img.youtube.com/vi/fZtLp7vPts0/0.jpg)](https://www.youtube.com/embed/fZtLp7vPts0)  
 *Promotional video of Robot Labo.*
 
-![Packaging of Robot Labo](https://jgrizou.com/wp-content/uploads/2022/11/pollen_robot_labo-294x300.png)  
+![Packaging of Robot Labo](../images/pollen_robot_labo-294x300.png)  
 *Packaging of Robot Labo.*
 
 I voluntarily departed from Pollen Robotics in 2018 following a pivot. This pivot led to a split in the activities and the creation of a second startup, [Luos Robotics](https://www.luos.io). At the time of this writing, [Pollen Robotics](https://www.pollen-robotics.com/) is a robotic design studio that starts from an idea to develop a functioning product, while [Luos Robotics](https://www.luos.io/) aims to commercialize the Robus modular technology. We were awarded a [European SME Instrument H2020 grant](https://ec.europa.eu/programmes/horizon2020/en/h2020-section/sme-instrument) for this project.
 
-![Logo of Pollen Robotics](https://jgrizou.com/wp-content/uploads/2022/11/pollen_logo.png)  
+![Logo of Pollen Robotics](../images/pollen_logo.png)  
 *Logo of Pollen Robotics.*
 
-![Logo of Luos Robotics](https://jgrizou.com/wp-content/uploads/2022/11/luos_logo-300x234.png)  
+![Logo of Luos Robotics](../images/luos_logo-300x234.png)  
 *Logo of Luos Robotics.*
 
 ---
