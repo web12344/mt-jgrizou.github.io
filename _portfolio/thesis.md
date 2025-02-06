@@ -12,7 +12,7 @@ location: "Inria / University of Bordeaux"
 
 *Providing you neither know the game of chess nor the French language, could you learn the rules of chess from a person speaking French? In machine learning, this problem is usually avoided by freezing one of the unknowns (e.g. chess or french) during a calibration phase. During my PhD, I tackled the full problem and proposed an innovative solution based on a measure of consistency of the interaction. We applied our method to human-robot and brain-computer interaction and studied how humans solve this problem. This work was awarded a PhD price handed by Cédric Villani (2010 Fields Medal).*
 
-![Illustration of consistency. The same dataset is labelled according to 3 different tasks. The left labelling is the most consistent with the structure of the data. How do we measure this?](https://jgrizou.com/wp-content/uploads/2022/11/bci_intuition.jpg)
+![Illustration of consistency. The same dataset is labelled according to 3 different tasks. The left labelling is the most consistent with the structure of the data. How do we measure this?](../images/bci_intuition.jpg)
 
 ---
 
@@ -25,7 +25,7 @@ The problem resembles a chicken-and-egg scenario: to learn the task you need to 
 
 However, a common assumption is made when tackling each of the above problems independently: the user providing the instructions or labels is acting consistently with respect to the task and to its own signal-to-meaning mapping. In short, the user is not acting randomly but is trying to guide the machine towards one goal and using the same signal to mean the same things. The user is consistent.
 
-![Illustration of consistency. The same dataset is labelled according to 3 different tasks. The left labelling is the most consistent with the structure of the user signals - indicating the user was probably teaching that task.](https://jgrizou.com/wp-content/uploads/2022/11/bci_intuition.jpg)
+![Illustration of consistency. The same dataset is labelled according to 3 different tasks. The left labelling is the most consistent with the structure of the user signals - indicating the user was probably teaching that task.](../images/bci_intuition.jpg)
 
 ---
 
@@ -51,7 +51,7 @@ I am currently designing a web application to demonstrate the concept of self-ca
 
 The demo takes the form of a challenge to open a vault. The vault is secured by a 4-digit code that can be typed via a simple user interface on a screen. You have access to videos of a user entering the code into the interface and can watch it as much as required. The challenge is to crack the code, open the vault, and collect its content.
 
-![Staffs and students trying to crack the code.](https://jgrizou.com/wp-content/uploads/2022/11/vault_people.jpeg)
+![Staffs and students trying to crack the code.](../images/vault_people.jpeg)
 
 ---
 
@@ -67,13 +67,13 @@ In brain-computer interfaces (BCI), an explicit calibration phase is typically r
 
 The experimental setup is shown below. The user has to guide an agent towards a specific location of its choosing on the grid. The user informs the agent by thinking yes or no after each movement. The user’s brain activity is recorded and used as our unlabeled feedback signal. Similar setups are used to help persons with handicaps to spell.
 
-![A grid is displayed on the screen. The user wants the green dot to move towards the red square.](https://jgrizou.com/wp-content/uploads/2022/11/bci_setup-768x362.png)
+![A grid is displayed on the screen. The user wants the green dot to move towards the red square.](../images/bci_setup-768x362.png)
 
 ---
 
 A calibration procedure would run for a fixed period of interaction, say 400 movements of the green dot, before the user can actually start controlling the device. With our method, the system is able to estimate when sufficient evidence has been accumulated and can solve a first task after only 85 iterations in the example below case.
 
-![Diagram of the experimental setup](https://jgrizou.com/wp-content/uploads/2022/11/bci_self_vs_calib-768x357.png)
+![Diagram of the experimental setup](../images/bci_self_vs_calib-768x357.png)
 
 ---
 
@@ -98,13 +98,13 @@ Example of interaction. The robot performs an action and I provide feedback on t
 
 We evaluated the performance of our algorithm in simulation using pre-recorded spoken words and a model of the robotic task. We showed that it is possible to learn the meaning of unknown and noisy teaching instructions, as well as a new task at the same time. And that the performance can vary depending on the classifier we use to measure consistency or the planning heuristic we use to select the agent action.
 
-![HRI Learning](https://jgrizou.com/wp-content/uploads/2022/11/hri_learning.png)
+![HRI Learning](../images/hri_learning.png)
 
 Each plot shows the computed probability of the correct task per number of human-robot interaction. Left: Study of different classifiers. Right: Study of different planning heuristics.
 
 We then showed that once a first task has been identified, it is possible to reuse the acquired knowledge about instructions for learning new tasks much faster. Indeed, once a first task is identified, we can revisit the history of interactions and assign the true label to each signal, enabling us to build a signal decoder and removing one side of our problem.
 
-![HRI Reuse](https://jgrizou.com/wp-content/uploads/2022/11/hri_reuse.png)
+![HRI Reuse](../images/hri_reuse.png)
 *Once a first task is learned using our method, the second task is much faster to learn as we can train an explicit signal-to-meaning classifier.*
 
 ### Resources
@@ -112,7 +112,7 @@ We then showed that once a first task has been identified, it is possible to reu
 
 In later studies, we developed a new uncertainty measure taking into account the uncertainty on the task space and the signal space. This metric can be used to select the next actions of our agent in order to solve the problem faster. This measure is non-intuitive as it is a mix of trying to disambiguate the possible tasks, while trying to disambiguate the possible signal-to-meaning mappings, both often requiring opposite actions. By explicitly measuring the joint uncertainty, our agents were able to reduce considerably the time to identify a first task. Planning was key for the success of our BCI application.
 
-![UAI Planning](https://jgrizou.com/wp-content/uploads/2022/11/uai_planning.png)
+![UAI Planning](../images/uai_planning.png)
 *Number of iterations to identify a first task from unlabeled instructions. The planning method has a significant impact on performance. Planning using our uncertainty measure outperformed all other methods. Using only an uncertainty measure based on the tasks performs poorly. A 50% greedy on task / 50% random policy has shown good performance, showing the non-intuitive aspect of the planning problem.*
 
 ### Resources
