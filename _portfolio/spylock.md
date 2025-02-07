@@ -14,7 +14,7 @@ Spylock might still be on the Play Store:
 
 ---
 
-![Spylock Screenshot](https://jgrizou.com/wp-content/uploads/2023/09/Screenshot-2023-09-27-at-11.53.12-1-1024x358.png)
+![Spylock Screenshot](../images/Screenshot-2023-09-27-at-11.53.12-1-1024x358.png)
 
 ---
 
