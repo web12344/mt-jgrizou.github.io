@@ -24,7 +24,7 @@ As a first step in approaching this issue, we investigate the processes used by 
 
 We introduced a new experimental setup, where two humans have to collaborate to solve a task. Below is a schematic view of our experimental setup. An architect (bottom) and a builder (top) should collaborate in order to build the construction target while located in different rooms. The architect has a picture of the targeted construction, while the builder has access to the construction blocks.
 
-![Diagram of the experimental setup](https://jgrizou.com/wp-content/uploads/2022/11/setup.png)
+![Diagram of the experimental setup](../images/setup.png)
 
 The architect only sees a top view of the builder’s workspace and can communicate with the builder only through the use of 10 buttons which, when pressed, display symbols on a screen on the builder's side. The channels of communication they can use are constrained and force them to invent and agree on a shared interaction protocol in order to solve the task.
 
@@ -34,7 +34,7 @@ These constraints allow us to analyze how a communication protocol is progressiv
 
 ### Timeline of Data Collection
 
-![Data collected and annotated during one experiment](https://jgrizou.com/wp-content/uploads/2022/11/timeline-768x452.png)
+![Data collected and annotated during one experiment](../images/timeline-768x452.png)
 
 Above is a timeline for one experiment of an architect and a builder collaborating towards building the construction target (right-hand side). The top and middle parts show the timeline of button presses associated with the intended meaning from the architect (top) and the understood meaning from the builder (middle). There were 10 buttons, for which we logged all button presses for each experiment and here display all occurrences as colored dashes. Using the signal meanings participants reported during the game, the events are annotated with the meaning the architect intended or the builder understood.
 
