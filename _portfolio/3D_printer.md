@@ -21,9 +21,9 @@ This printer printed the first part of the [Poppy project](https://www.poppy-pro
 <iframe width="640" height="360" src="https://www.youtube.com/embed/MCbMIJw1MgE?controls=1&rel=0&playsinline=0&modestbranding=0&cc_load_policy=0&autoplay=0" title="First 3D print at home in 2011" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Photos
-![Poppy Leg 1](https://jgrizou.com/wp-content/uploads/2022/11/poppy_leg_1-300x225.jpg)
+![Poppy Leg 1](../images/poppy_leg_1-300x225.jpg)
 
-![Poppy Leg 2](https://jgrizou.com/wp-content/uploads/2022/11/poppy_leg_2.jpg)
+![Poppy Leg 2](../images/poppy_leg_2.jpg)
 
 ---
 
@@ -32,9 +32,9 @@ This printer printed the first part of the [Poppy project](https://www.poppy-pro
 <iframe width="640" height="360" src="https://www.youtube.com/embed/CK_Ua5wZSkU?controls=1&rel=0&playsinline=0&modestbranding=0&cc_load_policy=0&autoplay=0" title="3D printing chain elements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Photos
-![Frame 1](https://jgrizou.com/wp-content/uploads/2022/11/frame_1-300x225.jpg)
+![Frame 1](../images/frame_1-300x225.jpg)
 
-![Frame 2](https://jgrizou.com/wp-content/uploads/2022/11/frame_2-225x300.jpg)
+![Frame 2](../images/frame_2-225x300.jpg)
 
 ---
 
@@ -43,6 +43,6 @@ This printer printed the first part of the [Poppy project](https://www.poppy-pro
 <iframe width="640" height="360" src="https://www.youtube.com/embed/DBdOaJ1qL4U?controls=1&rel=0&playsinline=0&modestbranding=0&cc_load_policy=0&autoplay=0" title="3D printing an empty ball" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Photos
-![Cable Holder 1](https://jgrizou.com/wp-content/uploads/2022/11/cable_holder_1-225x300.jpg)
+![Cable Holder 1](../images/cable_holder_1-225x300.jpg)
 
-![Cable Holder 2](https://jgrizou.com/wp-content/uploads/2022/11/cable_holder_2-225x300.jpg)
+![Cable Holder 2](../images/cable_holder_2-225x300.jpg)
