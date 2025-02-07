@@ -23,7 +23,7 @@ There were four games, each displaying a different shape and using a different p
 
 In each game, the subject’s goal is to match the randomly generated shape displayed on the screen. When reached, i.e., when the controlled shape is maintained close enough to the target for one second, a new goal is automatically generated. Objectives change every 30 seconds when not reached. Additional performance indicators were displayed to the subjects to improve intrinsic motivation, implication, and comprehension.
 
-![Game Visual Interface](https://jgrizou.com/wp-content/uploads/2022/11/game-768x576.png)
+![Game Visual Interface](../images/game-768x576.png)
 *Game visual interface*
 
 Each of the four games, while visually similar, differs by the difficulty of the underlying mapping (more or less easy to learn). Typically, for each of these mappings, the axes of the ellipsis are controlled by one of the body joints: e.g., the major axis will be controlled by the pitch angle of the left shoulder while the minor axis will be controlled by the yaw angle of the right elbow.
