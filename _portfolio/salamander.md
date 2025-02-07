@@ -10,7 +10,7 @@ location: "EPFL"
 
 **Note:** See the project as of 2011 on the BioRob website: [https://biorob.epfl.ch/grizou](https://biorob.epfl.ch/grizou). For memory's sake, I have kept the same structure and text as my original 2011 version and simply added relevant videos within the text.
 
-![The salamander robot used in this work](https://jgrizou.com/wp-content/uploads/2022/11/salamander-768x257.png)
+![The salamander robot used in this work](../images/salamander-768x257.png)
 *The salamander robot used in this work.*
 
 ## Abstract
@@ -43,7 +43,7 @@ Optimization process on the morphological model (muscle/joint model).
 Realistic data for muscle activations (EMG) were extracted from:  
 I. Delvolvé, T. Bem, and J.M. Cabelguen. *Epaxial and limb muscle activity during swimming and terrestrial stepping in the adult newt, Pleurodeles waltl.* Journal of Neurophysiology, 78(2): 638, 1997.
 
-![EMG Data](https://jgrizou.com/wp-content/uploads/2022/11/EMG.png)
+![EMG Data](../images/EMG.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/t6hQE4Kf4iQ?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>  
 *Real Salamander Swimming.*
@@ -53,11 +53,11 @@ I. Delvolvé, T. Bem, and J.M. Cabelguen. *Epaxial and limb muscle activity duri
 
 Muscles' properties and muscle-to-body interaction are simulated based on the current body position and the muscle activation level.
 
-![Model Visualization](https://jgrizou.com/wp-content/uploads/2022/11/models-768x374.png)
+![Model Visualization](../images/models-768x374.png)
 
 The resulting parameters are joint torques that can be applied to the robotic platform or simulated robot. Depending on the interaction condition, a new body position is defined, and the process is repeated.
 
-![Computational Steps](https://jgrizou.com/wp-content/uploads/2022/11/computational_steps-768x238.png)
+![Computational Steps](../images/computational_steps-768x238.png)
 
 The optimization process helps find the best set of morphological parameters to reproduce a realistic swimming gait based on a realistic pattern in muscle activation.
 
