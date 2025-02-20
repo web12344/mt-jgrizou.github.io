@@ -36,7 +36,7 @@ Example of robots made with the parametric part libraries:
 - [poppy-4wheels-mini](https://github.com/poppy-project/poppy-4wheels-mini)
 - [poppy-dragster-mini](https://github.com/poppy-project/poppy-dragster-mini)
 
-![The family of Poppy mini-creatures.](/../../images/poppy_mini_familly-768x694.png)
+![The family of Poppy mini-creatures.](../../images/poppy_mini_familly-768x694.png)
 *The family of Poppy mini-creatures.*
 
 The [poppy-ergo-jr](https://github.com/poppy-project/poppy-ergo-jr) and [poppy-ergo-starter](https://github.com/poppy-project/poppy-ergo-starter) robots started with parametric parts. Their latest version is now made with [onshape](https://www.onshape.com/) by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre). See the hardware/README.md file of each repo to find back the openscad version.
